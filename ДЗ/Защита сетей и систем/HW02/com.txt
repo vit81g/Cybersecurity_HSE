@@ -1,0 +1,35 @@
+sudo tcpdump -i wlan0 -c 200 -nn -e -vv
+
+pk			route
+ec:63:d7:cd:9f:ec > f0:2f:74:b7:ea:d8
+
+sudo tcpdump -i wlan0 ether src f0:2f:74:b7:ea:d8 -w router_traffic.pcap
+
+sudo tcpdump -i wlan0 -c 200 -nn -e -vv
+
+sudo tcpdump -i wlan0 ether host f0:2f:74:b7:ea:d8
+
+sudo tcpdump -i wlan0 host 192.168.2.1 -w router_traffic.pcap
+
+
+1.5
+sudo tcpdump -i wlan0 -c 200 -nn -e -vv ether host f0:2f:74:b7:ea:d8 -w router_traffic.pcap
+
+1.6
+sudo tcpdump -i wlan0 icmp -w icmp_ping.pcap
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.2.148  netmask 255.255.255.0  broadcast 192.168.2.255
+        inet6 fe80::ee63:d7ff:fecd:9fec  prefixlen 64  scopeid 0x20<link>
+        ether ec:63:d7:cd:9f:ec  txqueuelen 1000  (Ethernet)
+        RX packets 4961  bytes 3976130 (3.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4304  bytes 1264477 (1.2 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+21:42:12.633591 ec:63:d7:cd:9f:ec > f0:2f:74:b7:ea:d8, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 65, id 41788, offset 0, flags [DF], proto ICMP (1), length 84)
+    192.168.2.148 > 192.168.2.1: ICMP echo request, id 6147, seq 5, length 64
+21:42:12.636401 f0:2f:74:b7:ea:d8 > ec:63:d7:cd:9f:ec, ethertype IPv4 (0x0800), length 98: (tos 0x0, ttl 64, id 50591, offset 0, flags [none], proto ICMP (1), length 84)
+    192.168.2.1 > 192.168.2.148: ICMP echo reply, id 6147, seq 5, length 64
+

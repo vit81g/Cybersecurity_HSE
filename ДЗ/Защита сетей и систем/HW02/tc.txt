@@ -1,0 +1,14 @@
+sudo tcpdump -i eth0 host 192.168.2.148 -w router_traffic.pcap
+
+sudo tcpdump -i eth0 icmp and host 8.8.8.8 -w icmp_ping.pcap
+
+sudo tcpdump -i eth0 host 192.168.2.148 -w router_traffic.pcap
+
+sudo tcpdump -i eth0 ether src 52:54:00:12:35:02 -w router_traffic.pcap
+
+
+08:00:27:22:46:4f > 52:54:00:12:35:02
+08:00:27:22:46:4f > 52:54:00:12:35:02
+
+EC-63-D7-CD-9F-EC
+
