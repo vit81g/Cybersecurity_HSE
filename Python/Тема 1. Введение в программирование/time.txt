@@ -1,0 +1,5 @@
+лекция
+https://kinescope.io/0fkoiDd2zS36TbXq6za4QJ
+
+10:35 условные конструкции
+19:00 примеры if elif else
