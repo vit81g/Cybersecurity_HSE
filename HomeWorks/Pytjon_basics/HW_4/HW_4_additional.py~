@@ -1,0 +1,47 @@
+"""
+Для каждого user_id в фaйле visit_log.csv определите третий столбец с
+категорией покупки. Если покупка была, сам файл visit_log.csv изменять не
+надо.
+Запишите в файл funnel.csv визиты из файла visit_log.csv, в которых были
+покупки с указанием категории.
+Учтите условия для данных:
+● содержимое purchase_log.txt помещается в оперативную память
+компьютера;
+● содержимое visit_log.csv — нет, используйте только построчную
+обработку этого файла.
+Примеры работы программы при выводе первых трёх строк файла funnel.csv:
+user_id,source,category
+1840e0b9d4,other,Продукты
+4e4f90fcfb,context,Электроника
+"""
+
+import json
+
+# Считываем purchase_log.txt в словарь data_dict
+data_dict = {}
+with open('purchase_log.txt', 'r', encoding='utf-8') as file_log:
+    for line in file_log:
+        record = json.loads(line.strip())
+        user_id = record.get('user_id')
+        category = record.get('category')
+        if user_id and category:
+            data_dict[user_id] = category  # Заполняем словарь
+
+# Открываем visit_log.csv для построчной обработки
+with open('visit_log.csv', 'r', encoding='utf-8') as file_csv, open('funnel.csv', 'w', encoding='utf-8') as file_funnel:
+    # Записываем заголовок
+    file_funnel.write('user_id,source,category\n')
+    # Обрабатываем каждую строку
+    for line in file_csv:
+        # Преобразуем строку в список
+        data_list = line.strip().split(',')
+
+        # Проверяем, есть ли user_id в словаре покупок
+        user_id = data_list[0]
+        # Если есть, записываем категорию
+        if user_id in data_dict:
+            # Записываем строку в файл funnel.csv
+            file_funnel.write(f"{data_list[0]},{data_list[1]},{data_dict[user_id]}\n")
+
+
+
