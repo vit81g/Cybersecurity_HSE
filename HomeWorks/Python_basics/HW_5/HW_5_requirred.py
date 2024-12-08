@@ -1,0 +1,30 @@
+"""
+Печатные газеты использовали свой формат дат для каждого выпуска. Для каждой
+газеты из списка напишите формат указанной даты для перевода в объект datetime:
+The Moscow Times - Wednesday, October 2, 2002
+The Guardian - Friday, 11.10.13
+Daily News - Thursday, 18 August 1977
+Пример работы программы
+Программа должна выводить на экран объекты типа datetime, соответствующие датам
+в условии задачи
+"""
+
+# Импорт модуля datetime для работы с датами
+import datetime
+
+# Данные строк
+data_string01 = 'The Moscow Times - Wednesday, October 2, 2002'
+data_string02 = 'The Guardian - Friday, 11.10.13'
+data_string03 = 'Daily News - Thursday, 18 August 1977'
+
+# Конвертация строк в datetime с разными форматами
+date1 = datetime.datetime.strptime(data_string01.split(' - ')[1], '%A, %B %d, %Y')  # Moscow Times
+date2 = datetime.datetime.strptime(data_string02.split(' - ')[1], '%A, %d.%m.%y')  # Guardian
+date3 = datetime.datetime.strptime(data_string03.split(' - ')[1], '%A, %d %B %Y')  # Daily News
+
+# Форматирование и вывод с днем недели
+print(date1.strftime('%d %m %Y, %A'))
+print(date2.strftime('%d %m %Y, %A'))
+print(date3.strftime('%d %m %Y, %A'))
+
+
