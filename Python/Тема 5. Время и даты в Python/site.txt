@@ -1,0 +1,20 @@
+Типичные проблемы со временем в сфере IT
+
+https://kinescope.io/16447b32-68c1-4a02-9aa3-af87efa51339
+
+Обработка ошибок. Блоки try, except, traceback, finally. Практика
+
+https://kinescope.io/8da8ced2-feda-44e7-9ecc-534b609b1901
+
+Datetime: работа с датой и временем. Практика
+
+https://kinescope.io/063053ff-b8de-4f26-bfa2-a7e3e00a75c7
+
+Timedelta: как прибавлять интервал к датам. Практика
+
+https://kinescope.io/5e49eac2-1836-4a91-890c-3294834e5db8
+
+Unixtime как альтернатива Datetime. Практика
+
+https://kinescope.io/25c69db5-dfa2-4aec-8190-e5897e7bee19
+

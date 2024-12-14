@@ -1,0 +1,24 @@
+Вебинар:
+https://kinescope.io/i1NvQyz6kdtC7rtDgsqJGw
+
+1. Чтение и запись файлов в Python, работа с различными исходными данными
+
+https://kinescope.io/2541a412-d0c5-4c48-b1e4-3d7fa3ce55fd
+
+2. Чтение файлов
+
+https://kinescope.io/a4f08a10-5fd5-4f57-ab94-2d890e4986d8
+
+3. Чтение и запись файлов
+
+https://kinescope.io/b7de0e02-2ce9-4af2-888d-f72d0e069ce1
+
+4. Структуры JSON, PICKLE
+
+https://kinescope.io/999023f5-eef4-4c10-84a7-24f6ddf11c0c
+
+
+5. Работа с набором файлов в системе
+
+https://kinescope.io/44ff13a4-62fa-42de-bf62-a50580a7bda8
+
