@@ -1,0 +1,55 @@
+
+
+R1
+enable
+configure terminal
+hostname R1
+username user1 privilege 15 secret P@ssw0rd-ATM
+enable secret P@ssw0rd-ATM
+
+
+ip domain-name R1.local
+crypto key generate rsa
+  (введите размер ключа, например, 1024)
+ip ssh version 2
+
+Настройка виртуальных терминальных линий (vty) для SSH и Telnet:
+
+line vty 0 4
+ login local
+ transport input ssh
+ exit
+
+Включение консольного доступа с аутентификацией:
+
+line console 0
+ password P@ssw0rd-ATM
+ login
+ exit
+
+Соединение до PC1
+interface ethernet 0/0
+ ip address 10.180.32.193 255.255.255.248
+ no shutdown
+exit
+
+Соединение до R2
+interface ethernet 0/1
+ ip address 172.16.0.6 255.255.255.252
+ no shutdown
+exit
+
+Соединение до R4
+interface ethernet 0/2
+ ip address 172.16.0.9 255.255.255.252
+ no shutdown
+exit
+
+do write
+
+R1 (Основные маршруты):
+ip route 10.180.255.0 255.255.255.0 172.16.0.2
+ip route 10.180.32.192 255.255.255.248 172.16.0.2
+ip route 10.180.64.128 255.255.255.224 172.16.0.13
+do write
+
