@@ -4,7 +4,6 @@
 
 ![Схема задания](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/Labs/03%20Router%20on%20stick/task03.jpg)
 
-Схема задания: Ссылка на схему
 ## R1 (Router)
 
 ```plaintext
