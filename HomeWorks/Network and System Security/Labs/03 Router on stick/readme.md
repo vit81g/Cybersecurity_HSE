@@ -29,35 +29,35 @@ line vty 0 4
  exit
 
 # Включение консольного доступа с аутентификацией
-line console 0
- password P@ssw0rd-ATM
- login
- exit
+line console 0 
+ password P@ssw0rd-ATM 
+ login 
+ exit 
 
 # Включение интерфейсов и саб-интерфейсов (Router on Stick)
-interface ethernet 0/0
-no shutdown
-exit
+interface ethernet 0/0 
+no shutdown 
+exit 
 
-interface ethernet 0/1
-ip address 172.31.128.193 255.255.255.252
-no shutdown
-exit
+interface ethernet 0/1 
+ip address 172.31.128.193 255.255.255.252 
+no shutdown 
+exit 
 
-interface ethernet 0/0.152
-encapsulation dot1q 152
-ip address 10.132.12.1 255.255.255.0
-exit
+interface ethernet 0/0.152 
+encapsulation dot1q 152 
+ip address 10.132.12.1 255.255.255.0 
+exit 
 
-interface ethernet 0/0.412
-encapsulation dot1q 412
-ip address 10.255.48.1 255.255.255.0
-exit
+interface ethernet 0/0.412 
+encapsulation dot1q 412 
+ip address 10.255.48.1 255.255.255.0 
+exit 
 
 # Включение маршрутизации и статических маршрутов
-ip routing
-ip route 192.168.48.0 255.255.255.0 172.31.128.194
-ip route 192.168.1.0 255.255.255.0 172.31.128.194
+ip routing 
+ip route 192.168.48.0 255.255.255.0 172.31.128.194 
+ip route 192.168.1.0 255.255.255.0 172.31.128.194 
 
 # Сохранение конфигурации
 exit
