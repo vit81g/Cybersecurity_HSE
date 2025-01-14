@@ -1,0 +1,36 @@
+enable
+configure terminal
+hostname SW1
+
+vlan 152
+name VLAN_152
+exit
+
+vlan 412
+name VLAN_412
+exit
+
+interface ethernet 0/0
+description Trunk to R1
+switchport mode trunk
+switchport trunk allowed vlan 152,412
+switchport trunk native vlan 1
+no shutdown
+exit
+
+interface ethernet 0/1
+description PC1
+switchport mode access
+switchport access vlan 152
+no shutdown
+exit
+
+interface ethernet 0/2
+description PC2
+switchport mode access
+switchport access vlan 412
+no shutdown
+exit
+
+exit
+write

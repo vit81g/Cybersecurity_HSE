@@ -1,0 +1,36 @@
+enable
+configure terminal
+hostname R1
+
+interface ethernet 0/0
+no shutdown
+exit
+
+interface ethernet 0/1
+no shutdown
+exit
+
+interface ethernet 0/0.152
+encapsulation dot1q 152
+ip address 10.132.12.1 255.255.255.0
+exit
+
+interface ethernet 0/0.412
+encapsulation dot1q 412
+ip address 10.255.48.1 255.255.255.0
+exit
+
+interface ethernet 0/1
+ip address 172.31.128.193 255.255.255.252
+no shutdown
+exit
+
+router ospf 1
+network 10.132.12.0 0.0.0.255 area 0
+network 10.255.48.0 0.0.0.255 area 0
+network 172.31.128.192 0.0.0.3 area 0
+exit
+
+ip routing
+exit
+write
