@@ -1,0 +1,27 @@
+Тема 7. Работа с API
+
+0. Введение
+https://kinescope.io/7B1sWUTxhdDQ7sGZEtCMam
+
+1. Запросы. Знакомство с HTTP
+https://kinescope.io/du9t8wcUY84zpU4kMPyGrr
+
+2. Работа с запросами в Python. API
+https://kinescope.io/6SND88fNxDw2MDYgmMyNcT
+
+
+0. Введение
+https://kinescope.io/7B1sWUTxhdDQ7sGZEtCMam
+
+1. Запросы. Знакомство с HTTP
+https://kinescope.io/du9t8wcUY84zpU4kMPyGrr
+
+2. Работа с запросами в Python. API
+https://kinescope.io/6SND88fNxDw2MDYgmMyNcT
+
+
+
+Вебинар 9. Работа с API от 11.01.2025г. Глеб Пехов
+
+https://kinescope.io/x8B4dn8zEt13y1b8PWYJZu
+
