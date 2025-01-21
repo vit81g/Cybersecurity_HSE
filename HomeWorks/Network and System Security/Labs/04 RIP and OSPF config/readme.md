@@ -194,10 +194,15 @@ RIP будет использоваться временно для провер
 ```plaintext
 enable
 configure terminal
+# Команда router rip включает протокол RIP
 router rip
 version 2
+# Объявлены сети:
+# 10.0.0.0 (транзитные сети между маршрутизаторами),
+# 192.168.0.0 (локальная сеть маршрутизатора R1).
 network 10.0.0.0
 network 192.168.0.0
+# Команда passive-interface e0/2 предотвращает отправку RIP-объявлений в локальную сеть, где это не требуется.
 passive-interface e0/2
 exit
 ```
@@ -206,8 +211,12 @@ exit
 ```plaintext
 enable
 configure terminal
+# Команда router rip включает протокол RIP
 router rip
 version 2
+# Объявлены сети:
+# 10.0.0.0 (транзитные сети между маршрутизаторами),
+# 192.168.1.0 (локальная сеть маршрутизатора R2).
 network 10.0.0.0
 network 192.168.1.0
 passive-interface e0/2
@@ -218,8 +227,12 @@ exit
 ```plaintext
 enable
 configure terminal
+# Команда router rip включает протокол RIP
 router rip
 version 2
+# Объявлены сети:
+# 10.0.0.0 (транзитные сети между маршрутизаторами),
+# 192.168.2.0 (локальная сеть маршрутизатора R3).
 network 10.0.0.0
 network 192.168.2.0
 passive-interface e0/2
@@ -241,10 +254,15 @@ exit
 ```plaintext
 enable
 configure terminal
+# router ospf 100 активирует OSPF с номером процесса 100.
 router ospf 100
+# router-id 1.1.1.1 задаёт уникальный идентификатор маршрутизатора (ID) в OSPF.
 router-id 1.1.1.1
+# network 10.0.0.0 включает транзитные сети в область 0 OSPF.
 network 10.0.0.0 0.0.0.3 area 0
+# network 192.168.0.0 добавляет локальную сеть в область 0
 network 192.168.0.0 0.0.0.255 area 0
+# passive-interface e0/2 предотвращает отправку OSPF-пакетов в локальную сеть.
 passive-interface e0/2
 exit
 ```
@@ -253,11 +271,16 @@ exit
 ```plaintext
 enable
 configure terminal
+# router ospf 100 активирует OSPF с номером процесса 100.
 router ospf 100
+# router-id 2.2.2.2 задаёт уникальный идентификатор маршрутизатора R2.
 router-id 2.2.2.2
+# network 10.0.0.0 и 10.0.0.8 добавляют транзитные сети.
 network 10.0.0.0 0.0.0.3 area 0
 network 10.0.0.8 0.0.0.3 area 0
+# network 192.168.1.0 добавляет локальную сеть маршрутизатора в область OSPF.
 network 192.168.1.0 0.0.0.255 area 0
+# passive-interface e0/2 предотвращает отправку OSPF-пакетов в локальную сеть.
 passive-interface e0/2
 exit
 ```
@@ -266,11 +289,16 @@ exit
 ```plaintext
 enable
 configure terminal
+# router ospf 100 активирует OSPF с номером процесса 100.
 router ospf 100
+# router-id 3.3.3.3 задаёт уникальный идентификатор маршрутизатора R3.
 router-id 3.3.3.3
+# network 10.0.0.4 и 10.0.0.8 добавляют транзитные сети.
 network 10.0.0.4 0.0.0.3 area 0
 network 10.0.0.8 0.0.0.3 area 0
+# network 192.168.2.0 включает локальную сеть маршрутизатора в OSPF.
 network 192.168.2.0 0.0.0.255 area 0
+# passive-interface e0/2 предотвращает отправку OSPF-пакетов в локальную сеть.
 passive-interface e0/2
 exit
 ```
