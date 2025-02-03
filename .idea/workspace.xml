@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6e3c4f8-c011-4288-8568-640e079a83a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_9_WWW/hw09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/HW02/com.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/HW02/com.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/HW02/tc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/HW02/tc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/01_Basic configs/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/01_Basic configs/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/01_Basic configs/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/01_Basic configs/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_PC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_PC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_R4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_all.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_all.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_static.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/commands02_static.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/02 Routing basic/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/Description of commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/Description of commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_PC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_PC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_R1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_R1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_R2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_R2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_SW1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_SW1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_SW2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/commands_SW2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/static_route_description of commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/03 Router on stick/static_route_description of commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/PC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/PC.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/R1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/R1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/R2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/R2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/R3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/R3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/commands04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/commands04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/task04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/Labs/04 RIP and OSPF config/task04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test03.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test03.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test04.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test04.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test06.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test06.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test07.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test08.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test08.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test09.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Network and System Security/test13.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Network and System Security/test13.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/Pytjon_basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/Pytjon_basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/easycode/codebase-v2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/easycode/codebase-v2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2.1/HW_2_1_additional.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2.1/HW_2_1_additional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2.1/HW_2_1_required.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2.1/HW_2_1_required.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2_2/HW_2_2_addititional.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2_2/HW_2_2_addititional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2_2/HW_2_2_required.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_2_2/HW_2_2_required.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_3/HW_3_additional.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_3/HW_3_additional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_3/HW_3_requirred.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_3/HW_3_requirred.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/HW_4_additional.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/HW_4_additional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/HW_4_requirred.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/HW_4_requirred.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/funnel.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/funnel.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_4/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_5/HW_5_addititional.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_5/HW_5_addititional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_5/HW_5_requirred.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_5/HW_5_requirred.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_6_OOP/HW_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_6_OOP/HW_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_7_Git/HW_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_7_Git/HW_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_7_Git/initial_test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_7_Git/initial_test_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/HW_8_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/HW_8_API.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/HW_08_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/HW_08_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/HW_08_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/HW_08_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/HW_8_API/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/test/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/test/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/test/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/11.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/OOP.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/OOP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/oop2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/oop2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/property.py" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Python_basics/vibinar/property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/itog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/itog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test02(тема 4).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test02(тема 4).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test03(тема 5).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test03(тема 5).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test03(тема 5.2).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test03(тема 5.2).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test04(тема 6).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test04(тема 6).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test07 (тема GDPR).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test07 (тема GDPR).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test08(тема PCI_DSS).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test08(тема PCI_DSS).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test10(тема ISO22301).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test10(тема ISO22301).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test12.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test12.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test13(CISO).txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/test13(CISO).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/testMITRE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Regulatory support Complaince/testMITRE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Teacher seminar/1-4_lab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Teacher seminar/1-4_lab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWorks/Teacher seminar/time_lec.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWorks/Teacher seminar/time_lec.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 1. Введение в программирование/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 1. Введение в программирование/time.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 2.1 Управляющие конструкции и коллекции. Часть 1/тайминг.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 2.1 Управляющие конструкции и коллекции. Часть 1/тайминг.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 2.2 Управляющие конструкции и коллекции. Часть 2/timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 2.2 Управляющие конструкции и коллекции. Часть 2/timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 4. Работа с файлами и пакетами/site.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 4. Работа с файлами и пакетами/site.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 5. Время и даты в Python/site.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 5. Время и даты в Python/site.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 6. Классы и объекты (ООП)/timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 6. Классы и объекты (ООП)/timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 8. Работа с API/1.10_Работа_с_библиотекой_requests__http_запросы_Семакин_6.10.20.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 8. Работа с API/1.10_Работа_с_библиотекой_requests__http_запросы_Семакин_6.10.20.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 8. Работа с API/1.8_Работа_с_разными_форматами_данных.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 8. Работа с API/1.8_Работа_с_разными_форматами_данных.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/Тема 8. Работа с API/timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Тема 8. Работа с API/timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/03_Вебинар 2 Практическое значение нормативно-правовых актов для отрасли информационной безопасности/заметки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/03_Вебинар 2 Практическое значение нормативно-правовых актов для отрасли информационной безопасности/заметки.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/04_Тема 3 - Режимы информации ограниченного доступа/заметки.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/04_Тема 3 - Режимы информации ограниченного доступа/заметки.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/11_Тема 7. Международные и отраслевые стандарты. GDPR/тест 07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/11_Тема 7. Международные и отраслевые стандарты. GDPR/тест 07.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/12_Тема 8. Международные и отраслевые стандарты.ISO 27001/тайминг.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/12_Тема 8. Международные и отраслевые стандарты.ISO 27001/тайминг.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/13_Тема 9. Международные и отраслевые стандарты. PCI DSS/timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/13_Тема 9. Международные и отраслевые стандарты. PCI DSS/timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/14_Тема 10. Международные и отраслевые стандарты. ISO 22301/vebinar_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/14_Тема 10. Международные и отраслевые стандарты. ISO 22301/vebinar_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/15_Тема 11. Управление рисками/timing01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/15_Тема 11. Управление рисками/timing01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/15_Тема 11. Управление рисками/timing02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/15_Тема 11. Управление рисками/timing02.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/16_Тема 12. Организация безопасности внутри компании. Ключевые аспекты построения/timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/16_Тема 12. Организация безопасности внутри компании. Ключевые аспекты построения/timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/17_Тема 13. Основные положения и методы защиты организации/timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/17_Тема 13. Основные положения и методы защиты организации/timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regulatory support Complaince/17_Тема 13. Основные положения и методы защиты организации/vebinar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regulatory support Complaince/17_Тема 13. Основные положения и методы защиты организации/vebinar.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2sUNR8jr8rgRGpcBGXNaoH87WvS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.hw09.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/vit81/ADATA HD650/git/Cybersecurity_HSE",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6e3c4f8-c011-4288-8568-640e079a83a9" name="Changes" comment="" />
+      <created>1738506182954</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738506182954</updated>
+    </task>
+    <servers />
+  </component>
+</project>

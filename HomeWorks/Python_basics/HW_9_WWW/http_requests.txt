@@ -1,0 +1,1181 @@
+test
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/editprofile.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/editprofile.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/cheese.png HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/cheese.png HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/sss HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/sss HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/sss
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/sss
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP-запрос:
+GET /424434239301099530633532976913311439060/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/424434239301099530633532976913311439060/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/saveprofile?action=update&name=user&oldpw=&pw=&icon=&web_site=sss&color=&private_snippet=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/saveprofile?action=update&name=user&oldpw=&pw=&icon=&web_site=sss&color=&private_snippet=%3Cscript%3Ealert%281%29%3C%2Fscript%3E HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/ HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/ HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/cheese.png HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/cheese.png HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=4, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/snippets.gtl HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/editprofile.gtl%3Cscript%3Ealert(1)%3C/script%3E
+Cookie: GRUYERE=91049579|user||author
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Priority: u=0, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
+============================================================
+HTTP Request:
+GET /365409555492888778759821044345253631054/nonexistent.jpg HTTP/1.1
+Host: 127.0.0.1:8008
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br, zstd
+DNT: 1
+Connection: keep-alive
+Referer: http://127.0.0.1:8008/365409555492888778759821044345253631054/snippets.gtl
+Cookie: GRUYERE=91049579|user||author
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+Priority: u=5, i
+
+
+============================================================
+
