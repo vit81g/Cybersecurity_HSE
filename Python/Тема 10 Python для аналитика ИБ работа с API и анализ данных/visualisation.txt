@@ -1,0 +1,8 @@
+1. Какие задачи решает визуализация. Работа с matplotlib.
+https://kinescope.io/7wTsfnn7zFanee7e5VNgtA
+
+2. Библиотека seaborn
+https://kinescope.io/tUNxQqvKZUphxERrTkcYFw
+
+3. Библиотека plotly
+https://kinescope.io/vQcY1v3HeF2qXzJNRUanbe

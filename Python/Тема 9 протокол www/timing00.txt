@@ -1,0 +1,22 @@
+1. введение
+https://kinescope.io/7B1sWUTxhdDQ7sGZEtCMam
+
+2. Запросы. Знакомство с HTTP
+https://kinescope.io/du9t8wcUY84zpU4kMPyGrr
+
+3. Работа с запросами в Python. API
+https://kinescope.io/6SND88fNxDw2MDYgmMyNcT
+
+4. Вебинар 9. Работа с API от 11.01.2025г. Глеб Пехов
+https://kinescope.io/x8B4dn8zEt13y1b8PWYJZu
+
+
+1. Протокол HTTP
+https://kinescope.io/66fen9647eK35WmuGLaAxi
+
+2. Библиотека Requests
+https://kinescope.io/ppFgZywNfEW5gsg2j1Jdok
+
+3. Scapy как инструмент Python
+https://kinescope.io/7cb3WS37bJGz7X9ZJh7nfM
+

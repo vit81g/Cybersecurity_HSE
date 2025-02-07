@@ -1,0 +1,12 @@
+Тема 10. Python для аналитиков ИБ: API и анализ данных
+
+1. Применение API в информационной безопасности
+https://kinescope.io/oyttVkGp8FtjFB9eoDjwLL
+
+2. Анализ данных в ИБ с использованием Python
+https://kinescope.io/3taEeCM7e8yqyqxQ7j4RuG
+
+3. Использование статистических методов анализа в ИБ
+https://kinescope.io/4exhLxkbyqWE7daDRJDh8Y
+
+4. 

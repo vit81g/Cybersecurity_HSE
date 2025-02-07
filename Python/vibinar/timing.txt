@@ -1,0 +1,6 @@
+56:00 линтеры
+pip install ruff
+
+ruff check
+ruff format name_file
+проверит на формат 

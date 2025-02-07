@@ -1,0 +1,18 @@
+Вебинар 9. Работа с API от 11.01.2025г. Глеб Пехов
+https://kinescope.io/x8B4dn8zEt13y1b8PWYJZu
+
+Вебинар 10. Взаимодействие в WWW от 28.01.2025г. Антон Лукашов
+https://kinescope.io/c8NakpNW5KUSsibikQaZuz
+
+
+1:17:00
+Path Traversal
+1:20:00 Http x
+https://scapy.readthedocs.io/en/latest/index.html
+https://google-gruyere.appspot.com/
+1:26:00 scapy пошаговое описание
+
+
+
+
+
