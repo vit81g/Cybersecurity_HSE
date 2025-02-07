@@ -1,0 +1,45 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import json
+import argparse
+import requests
+
+# Парсинг аргументов командной строки
+parser = argparse.ArgumentParser(description="Анализ событий информационной безопасности из JSON-файла.")
+parser.add_argument("json_file", type=str, help="Путь к файлу JSON с данными")
+args = parser.parse_args()
+
+# Загрузка данных из указанного JSON-файла
+try:
+    with open(args.json_file, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+except FileNotFoundError:
+    print(f"Файл {args.json_file} не найден.")
+    exit(1)
+except json.JSONDecodeError:
+    print(f"Ошибка чтения JSON-файла {args.json_file}. Проверьте формат файла.")
+    exit(1)
+
+# Создание DataFrame
+df = pd.json_normalize(data['events'])
+
+# Группировка данных по типу события и подсчет количества
+event_counts = df['signature'].value_counts()
+
+# Вывод результатов
+print("Распределение событий:")
+print(event_counts)
+
+# Построение графика
+plt.figure(figsize=(10, 6))
+sns.barplot(x=event_counts.values, y=event_counts.index, palette='viridis')
+
+# Добавление заголовков и меток осей
+plt.title('Распределение событий информационной безопасности', fontsize=16)
+plt.xlabel('Количество событий', fontsize=12)
+plt.ylabel('Тип события', fontsize=12)
+
+# Отображение графика
+plt.tight_layout()
+plt.show()
