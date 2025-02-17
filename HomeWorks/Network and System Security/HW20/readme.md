@@ -1,7 +1,7 @@
 # GNS3 Network Configuration - Cisco Routers and PCs
 # 📡 Конфигурация сетевых устройств (RIP and OSPF config)
 ## Схема задания
-![Схема задания](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/Labs/04%20RIP%20and%20OSPF%20config/task04.jpg)
+![Схема задания](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW20/map.jpg)
 
 ##  📌 Настройка первичной конфигурации
 # Настройка OSPFv2 и безопасности на маршрутизаторах
