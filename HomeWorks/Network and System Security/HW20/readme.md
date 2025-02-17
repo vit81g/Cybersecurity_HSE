@@ -124,7 +124,7 @@ show running-config
 ### 3.6 Сохранение конфигурации
 ```plaintext
 write memory
-
+```
 
 ## ✅ Безопасность
 ```plaintext
