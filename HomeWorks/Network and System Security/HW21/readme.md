@@ -200,6 +200,7 @@ ssh -l SSHadmin 192.168.20.1
     Имя пользователя: SSHadmin
     Пароль: ciscosshpa55
 
+![Схема задания](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW21/ssh.jpg)
 ✅ Если подключение успешно – всё работает!
 
 
