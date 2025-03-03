@@ -60,4 +60,4 @@ for software in software_list:
 with open("fixed_vulnerability_report.json", "w") as f:
     json.dump(report, f, indent=4)
 
-print("✅ Отчет сохранен в 'fixed_vulnerability_report.json'")
+print("Отчет сохранен в 'fixed_vulnerability_report.json'")
