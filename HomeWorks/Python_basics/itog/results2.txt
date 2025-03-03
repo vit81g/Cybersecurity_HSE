@@ -1,0 +1,11 @@
+Файл invoice-42369643.html отправлен. Scan ID: NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MDk3OTg5MQ==
+Результаты анализа:
+Scan ID: NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MDk3OTg5MQ==
+Malicious: 24
+Suspicious: 0
+Harmless: 0
+Обнаруженные антивирусами угрозы:
+alibabacloud, BitDefender, Sangfor, VIPRE, Avast, Microsoft, Emsisoft, FireEye, Symantec, AVG, Lionic, Arcabit, ClamAV, Varist, Google, Tencent, ViRobot, CTX, GData, DrWeb, Kaspersky, Kingsoft, Fortinet, ESET-NOD32
+Sandbox Analysis:
+Данные о поведении в Sandbox отсутствуют.
+

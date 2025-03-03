@@ -1,0 +1,47 @@
+{
+    "NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MDk4MTM3OQ==": {
+        "malicious": 24,
+        "suspicious": 0,
+        "harmless": 0,
+        "detected_antiviruses": [
+            "GData",
+            "ESET-NOD32",
+            "AVG",
+            "BitDefender",
+            "Varist",
+            "Google",
+            "Fortinet",
+            "Avast",
+            "Arcabit",
+            "Kingsoft",
+            "Lionic",
+            "CTX",
+            "Kaspersky",
+            "Symantec",
+            "FireEye",
+            "Microsoft",
+            "Tencent",
+            "VIPRE",
+            "DrWeb",
+            "ViRobot",
+            "Emsisoft",
+            "alibabacloud",
+            "ClamAV",
+            "Sangfor"
+        ],
+        "detected_check_avs": [
+            "Fortinet"
+        ],
+        "missed_check_avs": [
+            "Yandex",
+            "Sophos",
+            "McAfee"
+        ],
+        "sandbox_verdicts": [],
+        "sandbox_analysis": {
+            "domains": [],
+            "ip_addresses": [],
+            "behavior_summary": []
+        }
+    }
+}
