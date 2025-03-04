@@ -1,0 +1,1 @@
+Hello, Magma cipher!
