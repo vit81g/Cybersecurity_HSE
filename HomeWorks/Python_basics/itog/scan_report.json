@@ -1,47 +1,93 @@
 {
-    "NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MDk4MTM3OQ==": {
-        "malicious": 24,
+    "NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MjcxNzcxOQ==": {
+        "malicious": 25,
         "suspicious": 0,
         "harmless": 0,
         "detected_antiviruses": [
-            "GData",
-            "ESET-NOD32",
-            "AVG",
+            "Avast",
+            "Symantec",
+            "Kingsoft",
             "BitDefender",
             "Varist",
-            "Google",
-            "Fortinet",
-            "Avast",
-            "Arcabit",
-            "Kingsoft",
-            "Lionic",
-            "CTX",
             "Kaspersky",
-            "Symantec",
-            "FireEye",
-            "Microsoft",
-            "Tencent",
-            "VIPRE",
             "DrWeb",
+            "ALYac",
+            "CTX",
             "ViRobot",
-            "Emsisoft",
             "alibabacloud",
+            "GData",
+            "FireEye",
+            "VIPRE",
+            "AVG",
+            "Ikarus",
+            "Microsoft",
+            "Arcabit",
+            "MicroWorld-eScan",
+            "Google",
+            "Emsisoft",
+            "ESET-NOD32",
             "ClamAV",
-            "Sangfor"
+            "Lionic",
+            "Fortinet"
         ],
         "detected_check_avs": [
             "Fortinet"
         ],
         "missed_check_avs": [
             "Yandex",
-            "Sophos",
-            "McAfee"
+            "McAfee",
+            "Sophos"
         ],
-        "sandbox_verdicts": [],
-        "sandbox_analysis": {
-            "domains": [],
-            "ip_addresses": [],
-            "behavior_summary": []
+        "behavior_analysis": {
+            "hostnames": [
+                "fp2e7a.wpc.2be4.phicdn.net",
+                "fp2e7a.wpc.phicdn.net"
+            ],
+            "resolved_ips": [
+                "192.229.211.108"
+            ],
+            "mitre_techniques": [
+                {
+                    "id": "T1071",
+                    "description": "Adversaries may communicate using application layer protocols to avoid detection/network filtering by blending in with existing traffic."
+                },
+                {
+                    "id": "T1497",
+                    "description": "Contains medium sleeps (>= 30s)"
+                },
+                {
+                    "id": "T1497",
+                    "description": "May sleep (evasive loops) to hinder dynamic analysis"
+                },
+                {
+                    "id": "T1497",
+                    "description": "Contains long sleeps (>= 3 min)"
+                },
+                {
+                    "id": "T1057",
+                    "description": "Queries a list of all running processes"
+                },
+                {
+                    "id": "T1010",
+                    "description": "Sample monitors Window changes (e.g. starting applications), analyze the sample with the simulation cookbook"
+                },
+                {
+                    "id": "T1083",
+                    "description": "Enumerates the file system"
+                },
+                {
+                    "id": "T1083",
+                    "description": "Reads ini files"
+                },
+                {
+                    "id": "T1082",
+                    "description": "Reads software policies"
+                },
+                {
+                    "id": "T1082",
+                    "description": "Queries the volume information (name, serial number etc) of a device"
+                }
+            ]
         }
     }
 }

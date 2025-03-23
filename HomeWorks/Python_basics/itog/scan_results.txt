@@ -1,11 +1,28 @@
-Файл invoice-42369643.html отправлен. Scan ID: NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MDk4MTM3OQ==
-Результаты анализа:
-Scan ID: NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MDk4MTM3OQ==
-Malicious: 24
+Файл invoice-42369643.html отправлен. Scan ID: NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MjcxNzcxOQ==
+
+Scan ID: NjEyYjU3ZTJhZmU3MDY1ZWJlOTIxMzM3MTcwZGY3ZDQ6MTc0MjcxNzcxOQ==
+Malicious: 25
 Suspicious: 0
 Harmless: 0
 Обнаруженные антивирусами угрозы:
-GData, ESET-NOD32, AVG, BitDefender, Varist, Google, Fortinet, Avast, Arcabit, Kingsoft, Lionic, CTX, Kaspersky, Symantec, FireEye, Microsoft, Tencent, VIPRE, DrWeb, ViRobot, Emsisoft, alibabacloud, ClamAV, Sangfor
-Sandbox Analysis:
-Данные о поведении в Sandbox отсутствуют.
+Avast, Symantec, Kingsoft, BitDefender, Varist, Kaspersky, DrWeb, ALYac, CTX, ViRobot, alibabacloud, GData, FireEye, VIPRE, AVG, Ikarus, Microsoft, Arcabit, MicroWorld-eScan, Google, Emsisoft, ESET-NOD32, ClamAV, Lionic, Fortinet
 
+Sandbox Анализ для файла f4dc2e1abf2de55b455c7dfc0bbe66a9d12f7e857cd12f8408dadd7129946ae3:
+Hostnames:
+- fp2e7a.wpc.2be4.phicdn.net
+- fp2e7a.wpc.phicdn.net
+Resolved IPs:
+- 192.229.211.108
+
+MITRE ATT&CK Анализ для файла f4dc2e1abf2de55b455c7dfc0bbe66a9d12f7e857cd12f8408dadd7129946ae3:
+MITRE Attack Techniques:
+- T1071: Adversaries may communicate using application layer protocols to avoid detection/network filtering by blending in with existing traffic.
+- T1497: Contains medium sleeps (>= 30s)
+- T1497: May sleep (evasive loops) to hinder dynamic analysis
+- T1497: Contains long sleeps (>= 3 min)
+- T1057: Queries a list of all running processes
+- T1010: Sample monitors Window changes (e.g. starting applications), analyze the sample with the simulation cookbook
+- T1083: Enumerates the file system
+- T1083: Reads ini files
+- T1082: Reads software policies
+- T1082: Queries the volume information (name, serial number etc) of a device
