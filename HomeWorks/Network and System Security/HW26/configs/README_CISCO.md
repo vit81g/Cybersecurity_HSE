@@ -1,7 +1,8 @@
 
 # Настройка Cisco-маршрутизатора (POD68)
 
-![Схема стенда](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW26/screenshots/lab_68_plan.jpg)
+##![Схема стенда](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW26/screenshots/lab_68_plan.jpg)
+![Схема стенда](./screenshots/lab_68_plan.jpg)
 
 ## 📘 Общая информация
 
