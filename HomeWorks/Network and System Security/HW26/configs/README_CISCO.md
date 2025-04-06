@@ -119,10 +119,6 @@ line vty 0 4
 ```bash
 write memory
 ```
-Или:
-```bash
-copy running-config startup-config
-```
 
 ---
 
