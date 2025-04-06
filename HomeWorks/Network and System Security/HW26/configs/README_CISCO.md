@@ -1,7 +1,7 @@
 
 # Настройка Cisco-маршрутизатора (POD68)
 
-![Схема стенда](screenshots/lab_68_plan.jpg)
+![Схема стенда](HomeWorks/Network and System Security/HW26/screenshots/lab_68_plan.jpg)
 
 ## 📘 Общая информация
 
