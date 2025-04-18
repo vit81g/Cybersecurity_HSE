@@ -160,9 +160,10 @@ def process_file(input_file: str, output_file: str, key: Tuple[int, int], mode: 
         output_file (str): путь к выходному файлу.
         key (Tuple[int, int]): ключ (e, n) для шифрования или (d, n) для расшифрования.
         mode (str): режим работы ('encrypt' или 'decrypt').
-    Обработка ошибок:
-        FileNotFoundError: если входной файл не найден.
-        ValueError: если ключ или данные некорректны.
+
+    Raises:
+        FileNotFoundError: Если входной файл не найден.
+        ValueError: Если ключ или данные некорректны.
     """
     exp, n = key
     # Определяем размер блока в байтах (чтобы число помещалось в n)
