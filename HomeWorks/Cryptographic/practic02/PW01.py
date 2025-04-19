@@ -1,8 +1,9 @@
-import os
-import sys
-import random
-import math
-from typing import Tuple, Optional
+import os  # Импортируем модуль os для взаимодействия с операционной системой
+import sys  # Импортируем модуль sys для доступа к системным функциям
+import random  # Импортируем модуль random для генерации случайных чисел и случайного выбора
+import math  # Импортируем модуль math для выполнения математических операций
+from typing import Tuple, Optional  # Импортируем аннотации типов Tuple и Optional
+
 
 def is_prime(n: int, k: int = 5) -> bool:
     """Проверяет, является ли число простым, используя тест Ферма.
