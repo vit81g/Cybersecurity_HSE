@@ -91,8 +91,8 @@ domex1@www.msn.com
 
 ## 📎 Документы
 
-- [📄 Отчёт в PDF](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Forensics/HW3/%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%20%D0%92.%D0%A1.%20%D0%94%D0%97%202.pdf)
-- [📑 Задание в Word](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Forensics/HW2/01_netstat.jpg)
+- [📄 Отчёт в PDF](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Forensics/HW3/HW3.pdf)
+- [📑 Задание в Word](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Forensics/HW3/%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%20%D0%92.%D0%A1.%20%D0%94%D0%97%202.docx)
 
 ---
 
