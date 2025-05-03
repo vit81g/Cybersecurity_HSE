@@ -35,7 +35,7 @@
 ```bash
 show ip interface brief
 ```
-![](./screenshots/brief.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/brief.jpg)
 
 ### 2. NAT
 
@@ -48,13 +48,13 @@ no ip nat inside source list 1 interface GigabitEthernet2 overload
 ```bash
 show ip nat translations
 ```
-![](./screenshots/nat.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/nat.jpg)
 
 ### 3. Создание Access List
 ```bash
 access-list 100 permit ip 10.0.68.0 0.0.0.255 10.0.72.0 0.0.0.255
 ```
-![](./screenshots/access_list.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/access_list.jpg)
 
 ### 4. Настройка ISAKMP/IKE
 ```bash
@@ -74,7 +74,7 @@ crypto map VPN-MAP 10 ipsec-isakmp
  set pfs group5
  match address VPN-TRAFFIC
 ```
-![](./screenshots/section_crypto.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/section_crypto.jpg)
 
 ### 6. Применение crypto map
 ```bash
@@ -88,20 +88,20 @@ interface GigabitEthernet2
 ```bash
 show crypto isakmp sa
 ```
-![](./screenshots/crypto_sa.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/crypto_sa.jpg)
 
 - **IPSec:**
 ```bash
 show crypto ipsec sa
 ```
-![](./screenshots/ipsec_sa_01.jpg)
-![](./screenshots/ipsec_sa_02.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/ipsec_sa_01.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/ipsec_sa_02.jpg)
 
 ### 8. Тест соединения
 ```bash
 ping 10.0.72.5
 ```
-![](./screenshots/ping.jpg)
+![](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/Network%20and%20System%20Security/HW29/screens/ping.jpg)
 
 ## 📂 Итог
 
