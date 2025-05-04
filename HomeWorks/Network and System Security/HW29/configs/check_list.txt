@@ -1,0 +1,56 @@
+Чек-лист для проверки IPSec VPN (сторона POD72)
+🔹 1. Проверка интерфейсов
+
+show ip interface brief
+
+    Убедись, что интерфейс GigabitEthernet1 имеет IP 10.0.72.1, и он в статусе up/up.
+
+🔹 2. Проверка ACL
+
+show access-lists
+
+    Должна быть расширенная ACL для VPN, например:
+
+Extended IP access list VPN-TRAFFIC
+ 10 permit ip 10.0.72.0 0.0.0.255 10.0.68.0 0.0.0.255
+
+🔹 3. Проверка конфигурации ISAKMP и IPSec
+
+show running-config | section crypto
+
+    Обрати внимание:
+
+    Используется один и тот же ключ: crypto isakmp key P@ssw0rd-PSK6872 address 10.0.68.1
+
+    Присутствует:
+
+        crypto isakmp policy
+
+        crypto ipsec transform-set
+
+        crypto map с match address, set peer, set transform-set
+
+🔹 4. Привязка crypto map к WAN-интерфейсу
+
+show running-config interface GigabitEthernet2
+
+    Должна быть строка:
+
+crypto map VPN-MAP
+
+🔹 5. Проверка статуса VPN
+
+show crypto isakmp sa
+show crypto ipsec sa
+
+    Ожидается:
+
+    в isakmp sa — состояние QM_IDLE
+
+    в ipsec sa — счётчики #pkts encaps, #pkts decaps > 0
+
+🔹 6. Проверка NAT
+
+show run | include nat
+
+    NAT должен исключать VPN-трафик, либо быть полностью отключён.
