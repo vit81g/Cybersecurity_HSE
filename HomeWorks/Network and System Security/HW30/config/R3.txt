@@ -1,0 +1,35 @@
+hostname R3
+!
+interface GigabitEthernet0/1
+ ip address 192.168.3.1 255.255.255.0
+ no shutdown
+!
+interface Serial0/0/1
+ ip address 10.2.2.1 255.255.255.252
+ ip ospf message-digest-key 1 md5 MD5pa55
+ no shutdown
+!
+router ospf 1
+ network 10.2.2.0 0.0.0.3 area 0
+ network 192.168.3.0 0.0.0.255 area 0
+ area 0 authentication message-digest
+!
+ntp authenticate
+ntp authentication-key 1 md5 NTPpa55
+ntp trusted-key 1
+ntp server 192.168.1.5 key 1
+ntp update-calendar
+!
+service timestamps log datetime msec
+logging 192.168.1.6
+!
+ip domain-name ccnasecurity.com
+username SSHadmin privilege 15 secret ciscosshpa55
+crypto key generate rsa modulus 1024
+ip ssh version 2
+ip ssh time-out 90
+ip ssh authentication-retries 2
+line vty 0 4
+ login local
+ transport input ssh
+!

@@ -1,0 +1,26 @@
+hostname R2
+!
+interface Serial0/0/0
+ ip address 10.1.1.2 255.255.255.252
+ ip ospf message-digest-key 1 md5 MD5pa55
+ no shutdown
+!
+interface Serial0/0/1
+ ip address 10.2.2.2 255.255.255.252
+ ip ospf message-digest-key 1 md5 MD5pa55
+ no shutdown
+!
+router ospf 1
+ network 10.1.1.0 0.0.0.3 area 0
+ network 10.2.2.0 0.0.0.3 area 0
+ area 0 authentication message-digest
+!
+ntp authenticate
+ntp authentication-key 1 md5 NTPpa55
+ntp trusted-key 1
+ntp server 192.168.1.5 key 1
+ntp update-calendar
+!
+service timestamps log datetime msec
+logging 192.168.1.6
+!
