@@ -1,0 +1,334 @@
+# -*- coding: utf-8 -*-
+import os # Импортируем модуль os для взаимодействия с операционной системой
+import random # Импортируем модуль random для генерации случайных чисел и случайного выбора
+import hashlib # Библиотека hashlib из стандартной библиотеки Python была выбрана для реализации хэш-функции в скрипте
+from typing import Tuple, Optional # Импортируем аннотации типов Tuple и Optional
+
+def extended_gcd(a: int, b: int) -> Tuple[int, int, int]:
+    """Расширенный алгоритм Евклида для нахождения НОД и коэффициентов.
+
+    Аргументы:
+        a (int): Первое число.
+        b (int): Второе число.
+
+    Возвращает:
+        Tuple[int, int, int]: НОД(a, b) и коэффициенты x, y, такие что ax + by = НОД.
+    """
+    if a == 0:
+        return b, 0, 1
+    gcd, x1, y1 = extended_gcd(b % a, a)
+    x = y1 - (b // a) * x1
+    y = x1
+    return gcd, x, y
+
+
+def mod_inverse(a: int, m: int) -> Optional[int]:
+    """Находит мультипликативное обратное a по модулю m.
+
+    Аргументы:
+        a (int): Число, для которого ищется обратное.
+        m (int): Модуль.
+
+    Возвращает:
+        Optional[int]: Обратное число или None, если оно не существует.
+    """
+    gcd, x, _ = extended_gcd(a, m)
+    if gcd != 1:
+        return None
+    return x % m
+
+
+class EllipticCurve:
+    """Класс для работы с эллиптической кривой y^2 = x^3 + ax + b (mod p)."""
+
+    def __init__(self, a: int, b: int, p: int):
+        """
+        Инициализация кривой.
+
+        Аргументы:
+            a (int): Коэффициент a в уравнении кривой.
+            b (int): Коэффициент b в уравнении кривой.
+            p (int): Модуль поля.
+        """
+        self.a = a
+        self.b = b
+        self.p = p
+
+    def is_point_on_curve(self, P: Tuple[int, int]) -> bool:
+        """
+        Проверяет, лежит ли точка на эллиптической кривой.
+
+        Аргументы:
+            P (Tuple[int, int]): Точка (x, y).
+
+        Возвращает:
+            bool: True, если точка удовлетворяет уравнению y^2 = x^3 + a x + b (mod p).
+        """
+        x, y = P
+        return (y * y - (x * x * x + self.a * x + self.b)) % self.p == 0
+
+    def add_points(self,
+                   P: Optional[Tuple[int, int]],
+                   Q: Optional[Tuple[int, int]]
+                   ) -> Optional[Tuple[int, int]]:
+        """
+        Сложение двух точек на эллиптической кривой.
+        Возвращает None, если результат — точка на бесконечности
+        или если делитель не обратим (чтобы избежать TypeError).
+        """
+        if P is None:
+            return Q
+        if Q is None:
+            return P
+        x1, y1 = P
+        x2, y2 = Q
+
+        # P + (-P) = 0 (точка на бесконечности)
+        if x1 == x2 and (y1 + y2) % self.p == 0:
+            return None
+
+        if P == Q:
+            # удвоение точки
+            if y1 == 0:
+                return None
+            inv = mod_inverse((2 * y1) % self.p, self.p)
+            if inv is None:
+                # делитель 2*y1 не обратим — возвращаем бесконечность
+                return None
+            lam = ((3 * x1 * x1 + self.a) * inv) % self.p
+        else:
+            # сложение двух разных точек
+            denom = (x2 - x1) % self.p
+            inv = mod_inverse(denom, self.p)
+            if inv is None:
+                # делитель (x2 - x1) не обратим — возвращаем бесконечность
+                return None
+            lam = ((y2 - y1) * inv) % self.p
+
+        x3 = (lam * lam - x1 - x2) % self.p
+        y3 = (lam * (x1 - x3) - y1) % self.p
+        return x3, y3
+
+    def multiply_point(self, P: Tuple[int, int], k: int) -> Optional[Tuple[int, int]]:
+        """
+        Умножение точки на скаляр k (быстрый метод "двойной и добавление").
+
+        Аргументы:
+            P (Tuple[int, int]): Точка (x, y).
+            k (int): Скаляp.
+
+        Возвращает:
+            Optional[Tuple[int, int]]: k·P или None.
+        """
+        result: Optional[Tuple[int, int]] = None
+        addend = P
+        while k > 0:
+            if k & 1:
+                result = self.add_points(result, addend)
+            addend = self.add_points(addend, addend)
+            k >>= 1
+        return result
+
+
+def hash_message(message: bytes) -> int:
+    """
+    Хэширование сообщения.
+
+    Здесь в качестве примера используется SHA-256 и усечение до 256 бит.
+    Для реальной реализации замените на ГОСТ Р 34.11-2012.
+    """
+    h = hashlib.sha256(message).digest()
+    # преобразуем во всё целое, чтобы получить длинный h
+    return int.from_bytes(h, 'big')
+
+
+def generate_keypair(curve: EllipticCurve,
+                     G: Tuple[int, int],
+                     q: int
+                     ) -> Tuple[int, Tuple[int, int]]:
+    """
+    Генерация ключевой пары по ГОСТ Р 34.10-2012.
+
+    Аргументы:
+        curve (EllipticCurve): Эллиптическая кривая.
+        G (Tuple[int,int]): Базовая точка порядка q.
+        q (int): Порядок подгруппы.
+
+    Возвращает:
+        Tuple[int, Tuple[int,int]]: Закрытый ключ d и открытый ключ Q = d·G.
+    """
+    while True:
+        d = random.randrange(1, q)
+        Q = curve.multiply_point(G, d)
+        if Q is not None and curve.is_point_on_curve(Q):
+            return d, Q  # d — секрет, Q — публичный ключ
+
+
+def sign_message(message: bytes,
+                 curve: EllipticCurve,
+                 G: Tuple[int, int],
+                 q: int,
+                 d: int
+                 ) -> Tuple[int, int]:
+    """
+    Формирование электронной подписи по ГОСТ Р 34.10-2012.
+
+    Аргументы:
+        message (bytes): Данные для подписи.
+        curve (EllipticCurve): Эллиптическая кривая.
+        G (Tuple[int,int]): Базовая точка.
+        q (int): Порядок подгруппы.
+        d (int): Закрытый ключ.
+
+    Возвращает:
+        Tuple[int, int]: Пара (r, s) — подпись.
+    """
+    h = hash_message(message)
+    e = h % q
+    if e == 0:
+        e = 1
+    while True:
+        k = random.randrange(1, q)
+        P = curve.multiply_point(G, k)
+        if P is None:
+            continue
+        r = P[0] % q
+        if r == 0:
+            continue
+        s = (r * d + k * e) % q
+        if s == 0:
+            continue
+        return r, s
+
+
+def verify_signature(message: bytes,
+                     signature: Tuple[int, int],
+                     curve: EllipticCurve,
+                     G: Tuple[int, int],
+                     q: int,
+                     Q: Tuple[int, int]
+                     ) -> bool:
+    """
+    Проверка подписи по ГОСТ Р 34.10-2012.
+
+    Процедура:
+    1. Проверяем 0 < r, s < q.
+    2. Проверяем, что Q лежит на кривой.
+    3. Вычисляем h = H(m), e = h mod q (если e=0, то e=1).
+    4. Вычисляем v = e^(-1) mod q.
+    5. z1 = (s * v) mod q, z2 = (-r * v) mod q.
+    6. Вычисляем C = z1·G + z2·Q.
+    7. Подпись верна, если C ≠ ∞ и C.x mod q == r.
+    """
+    r, s = signature
+    # 1. Диапазон r, s
+    if not (0 < r < q and 0 < s < q):
+        return False
+
+    # 2. Открытый ключ должен быть на кривой
+    if not curve.is_point_on_curve(Q):
+        return False
+
+    # 3. Хэш и e
+    h = hash_message(message)
+    e = h % q
+    if e == 0:
+        e = 1
+
+    # 4. v = e^{-1} mod q
+    v = mod_inverse(e, q)
+    if v is None:
+        return False
+
+    # 5. Формируем комбинированные множители
+    z1 = (s * v) % q
+    z2 = (-r * v) % q
+
+    # 6. Считаем точку C = z1*G + z2*Q
+    P1 = curve.multiply_point(G, z1)
+    P2 = curve.multiply_point(Q, z2)
+    C = curve.add_points(P1, P2)
+
+    # 7. Сравниваем координату x
+    if C is None:
+        return False
+    return (C[0] % q) == r
+
+
+def process_file(input_file: str,
+                 output_file: str,
+                 curve: EllipticCurve,
+                 G: Tuple[int, int],
+                 q: int,
+                 key: Tuple[int, Tuple[int, int]],
+                 mode: str = "sign"
+                 ) -> None:
+    """
+    Формирует или проверяет подпись для файла.
+
+    Аргументы:
+        input_file (str): путь к сообщению.
+        output_file (str): путь к файлу подписи.
+        curve, G, q: параметры кривой.
+        key: (d, Q) для sign или (0, Q) для verify.
+        mode: "sign" или "verify".
+    """
+    if not os.path.exists(input_file):
+        raise FileNotFoundError(f"Файл '{input_file}' не найден")
+    with open(input_file, "rb") as f:
+        msg = f.read()
+
+    if mode == "sign":
+        d, _ = key
+        r, s = sign_message(msg, curve, G, q, d)
+        with open(output_file, "w") as f:
+            f.write(f"{r} {s}")
+    else:
+        if not os.path.exists(output_file):
+            raise FileNotFoundError(f"Файл подписи '{output_file}' не найден")
+        with open(output_file, "r") as f:
+            r_str, s_str = f.read().split()
+            r, s = int(r_str), int(s_str)
+        _, Q = key
+        ok = verify_signature(msg, (r, s), curve, G, q, Q)
+        with open("verify_result.txt", "w") as f:
+            f.write("Подпись верна" if ok else "Подпись неверна")
+
+
+def main() -> None:
+    """Интерактивный интерфейс: генерация ключей, подпись, проверка."""
+    # Пример маленького поля для демонстрации:
+    p = 17
+    a, b = 2, 2
+    curve = EllipticCurve(a, b, p)
+    G = (5, 1)
+    q = 19
+
+    print("ГОСТ Р 34.10-2012: электронная подпись на Python")
+    while True:
+        mode = input("Выберите (generate/sign/verify): ").strip().lower()
+        if mode in {"generate", "sign", "verify"}:
+            break
+
+    if mode == "generate":
+        d, Q = generate_keypair(curve, G, q)
+        print(f"Закрытый ключ d = {d}")
+        print(f"Открытый ключ Q = {Q}")
+        return
+
+    msg_file = input("Файл для операции: ").strip()
+    sig_file = input("Файл подписи: ").strip()
+
+    if mode == "sign":
+        d = int(input("Введите d (секретный ключ): ").strip())
+        process_file(msg_file, sig_file, curve, G, q, (d, None), "sign")
+        print("Подпись сформирована.")
+    else:
+        x, y = map(int, input("Введите Q (два числа через пробел): ").split())
+        process_file(msg_file, sig_file, curve, G, q, (0, (x, y)), "verify")
+        with open("verify_result.txt") as f:
+            print("Результат проверки:", f.read())
+
+
+if __name__ == "__main__":
+    main()
