@@ -166,7 +166,6 @@
    docker ps
    curl http://localhost:8080
    ```
-![Пример изображения](screenshots/curl.jpg)
    Или откройте `http://localhost:8080` в браузере.
 
 ### Шаг 2: Развертывание Nginx в Kubernetes (Minikube)
