@@ -111,7 +111,7 @@ nameConstraints = permitted;email:edu.hse.ru
 
 | Сертификаты в certmgr.msc | Пример цепочки |
 |----------------------------|----------------|
-| ![Cert 01](../screens/cert01.jpg) | ![Cert 02](../screens/cert02.jpg) |
+| ![Cert 01](./screens/cert01.jpg) | ![Cert 02](./screens/cert02.jpg) |
 
 ---
 
