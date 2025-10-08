@@ -1,0 +1,8 @@
+cd C:\Lab1
+del *.key *.csr *.crt *.srl
+
+certutil -delstore "ROOT" "Root CA"
+certutil -delstore "CA" "Group MCA"
+certutil -delstore "MY" "Vitaliy Novikov"
+
+set PATH=%PATH%;C:\Program Files\OpenSSL-Win64\bin

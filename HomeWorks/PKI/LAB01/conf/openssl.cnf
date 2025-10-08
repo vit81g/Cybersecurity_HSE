@@ -1,0 +1,122 @@
+HOME            = .
+RANDFILE        = $ENV::HOME/.rnd
+
+####################################################################
+[ ca ]
+default_ca      = CA_default
+
+####################################################################
+[ CA_default ]
+
+dir             = .
+certs           = $dir/certs
+crl_dir         = $dir/crl
+database        = $dir/index.txt
+new_certs_dir   = $dir/newcerts
+
+certificate     = $dir/cacert.pem
+serial          = $dir/serial
+crlnumber       = $dir/crlnumber
+crl             = $dir/crl.pem
+private_key     = $dir/private/cakey.pem
+RANDFILE        = $dir/private/.rand
+
+x509_extensions = usr_cert
+
+name_opt        = ca_default
+cert_opt        = ca_default
+
+default_days    = 365
+default_crl_days= 30
+default_md      = sha256
+preserve        = no
+
+policy          = policy_match
+
+[ policy_match ]
+countryName             = match
+stateOrProvinceName     = match
+organizationName        = match
+organizationalUnitName  = optional
+commonName              = supplied
+emailAddress            = optional
+
+####################################################################
+[ req ]
+default_bits        = 2048
+default_keyfile     = privkey.pem
+distinguished_name  = req_distinguished_name
+attributes          = req_attributes
+x509_extensions     = v3_ca
+string_mask         = utf8only
+
+####################################################################
+[ req_distinguished_name ]
+countryName                     = RU
+countryName_default              = RU
+stateOrProvinceName              = Saint Petersburg
+localityName                     = Saint Petersburg
+0.organizationName               = HSE
+organizationalUnitName           = MKB241
+commonName                       = Vitaliy Novikov
+commonName_max                   = 64
+emailAddress                     = vsnovikov@edu.hse.ru
+emailAddress_max                 = 64
+
+####################################################################
+[ req_attributes ]
+challengePassword		= A challenge password
+challengePassword_min		= 4
+challengePassword_max		= 20
+
+unstructuredName                 = HSE
+
+####################################################################
+# ----- Пользовательский сертификат -----
+[ usr_cert ]
+basicConstraints = critical,CA:FALSE
+keyUsage = critical, digitalSignature, keyEncipherment, dataEncipherment
+extendedKeyUsage = emailProtection
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+nsComment = "Personal Student Certificate for Vitaliy Novikov"
+subjectAltName = email:vsnovikov@edu.hse.ru
+nsCertType = email
+
+####################################################################
+# ----- Корневой сертификат (Root CA) -----
+[ v3_ca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always
+basicConstraints = critical, CA:true, pathlen:1
+keyUsage = critical, keyCertSign, cRLSign
+extendedKeyUsage = emailProtection
+subjectAltName = URI:http://hse.ru/
+nsComment = "HSE Root Certification Authority (ВШЭ)"
+
+####################################################################
+# ----- Промежуточный сертификат (Group CA) -----
+[ v3_mca ]
+# --- Идентификаторы ключей ---
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+
+# --- Основные атрибуты УЦ группы ---
+basicConstraints = critical, CA:true, pathlen:0
+keyUsage = critical, keyCertSign, cRLSign
+extendedKeyUsage = emailProtection
+
+# --- Ограничение пространства имён ---
+# Разрешаем выпуск сертификатов только для адресов edu.hse.ru
+nameConstraints = permitted;email:edu.hse.ru
+
+# --- Служебные ссылки ---
+crlDistributionPoints = URI:http://crl.comodoca.com/COMODORSACertificationAuthority.crl
+
+# --- Альтернативные имена ---
+subjectAltName = URI:http://hse.ru/ba/is/
+issuerAltName = issuer:copy
+
+# --- Комментарий ---
+nsComment = "MKB241 Group Certification Authority"
+

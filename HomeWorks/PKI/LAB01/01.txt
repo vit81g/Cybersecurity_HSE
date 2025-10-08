@@ -1,0 +1,94 @@
+Проверка корректности openssl.cnf
+Убедитесь, что файл конфигурации содержит все необходимые секции. Если есть сомнения, перепишите:
+
+del openssl.cnf
+echo [req] > openssl.cnf
+echo distinguished_name = req_distinguished_name >> openssl.cnf
+echo x509_extensions = v3_ca >> openssl.cnf
+echo. >> openssl.cnf
+echo [req_distinguished_name] >> openssl.cnf
+echo. >> openssl.cnf
+echo [v3_ca] >> openssl.cnf
+echo basicConstraints = critical, CA:TRUE >> openssl.cnf
+echo keyUsage = critical, keyCertSign, cRLSign >> openssl.cnf
+echo subjectKeyIdentifier = hash >> openssl.cnf
+echo authorityKeyIdentifier = keyid:always,issuer >> openssl.cnf
+echo. >> openssl.cnf
+echo [v3_intermediate_ca] >> openssl.cnf
+echo basicConstraints = critical, CA:TRUE, pathlen:0 >> openssl.cnf
+echo keyUsage = critical, keyCertSign, cRLSign >> openssl.cnf
+echo subjectKeyIdentifier = hash >> openssl.cnf
+echo authorityKeyIdentifier = keyid:always,issuer >> openssl.cnf
+echo nameConstraints = critical, @nc_section >> openssl.cnf
+echo. >> openssl.cnf
+echo [nc_section] >> openssl.cnf
+echo permitted;DNS.0 = .hse.ru >> openssl.cnf
+echo permitted;email.0 = @hse.ru >> openssl.cnf
+echo. >> openssl.cnf
+echo [usr_cert] >> openssl.cnf
+echo basicConstraints = CA:FALSE >> openssl.cnf
+echo keyUsage = keyEncipherment, dataEncipherment >> openssl.cnf
+echo extendedKeyUsage = emailProtection >> openssl.cnf
+echo subjectKeyIdentifier = hash >> openssl.cnf
+echo authorityKeyIdentifier = keyid:always,issuer >> openssl.cnf
+
+
+
+Генерация ключа и сертификата root CA:
+
+openssl genpkey -algorithm RSA -out rootca.key
+openssl req -new -x509 -days 3650 -key rootca.key -out rootca.crt -batch -subj "/C=RU/ST=Moscow/L=Moscow/O=HSE/CN=Root CA" -extensions v3_ca
+
+Пояснение: Убрана опция -extfile openssl.cnf, так как для req -new -x509 расширения берутся из секции [v3_ca] в openssl.cnf, если она определена.
+Проверка: if exist rootca.crt (echo rootca.crt created) else (echo Error: rootca.crt not created & pause).
+
+
+Генерация ключа, CSR и сертификата intermediate CA (groupmca):
+
+openssl genpkey -algorithm RSA -out groupmca.key
+openssl req -new -key groupmca.key -out groupmca.csr -batch -subj "/C=RU/ST=Moscow/L=Moscow/O=HSE/OU=Group241/CN=Group MCA"
+openssl x509 -req -in groupmca.csr -CA rootca.crt -CAkey rootca.key -CAcreateserial -out groupmca.crt -days 3650 -extensions v3_intermediate_ca -extfile openssl.cnf
+
+Пояснение: Для подписи groupmca.crt используется -extfile openssl.cnf, что корректно для openssl x509 -req.
+Проверка: if exist groupmca.crt (echo groupmca.crt created) else (echo Error: groupmca.crt not created & pause).
+
+
+Генерация ключа, CSR и сертификата usercert:
+
+openssl genpkey -algorithm RSA -out usercert.key
+openssl req -new -key usercert.key -out usercert.csr -batch -subj "/C=RU/ST=Moscow/L=Moscow/O=HSE/OU=Group241/CN=Vitaliy Novikov/emailAddress=vitaliy.novikov@hse.ru"
+openssl x509 -req -in usercert.csr -CA groupmca.crt -CAkey groupmca.key -CAcreateserial -out usercert.crt -days 365 -extensions usr_cert -extfile openssl.cnf
+
+Проверка: if exist usercert.crt (echo usercert.crt created) else (echo Error: usercert.crt not created & pause).
+
+Импорт сертификатов в хранилище Windows:
+
+certutil -addstore -f "ROOT" rootca.crt
+certutil -addstore -f "CA" groupmca.crt
+certutil -addstore -f "MY" usercert.crt
+
+Проверка результатов
+
+Проверка Basic Constraints в groupmca.crt:
+
+openssl x509 -in groupmca.crt -text -noout | find "Basic Constraints"
+
+Ожидаемый результат: X509v3 Basic Constraints: critical, CA:TRUE, pathlen:0.
+
+Проверка Subject в usercert.crt:
+
+openssl x509 -in usercert.crt -text -noout | find "Subject"
+
+Ожидаемый результат: Subject: C=RU, ST=Moscow, L=Moscow, O=HSE, OU=Group241, CN=Vitaliy Novikov, emailAddress=vitaliy.novikov@hse.ru.
+
+Проверка дерева:
+
+Запустите mmc.exe от администратора → "Добавить или удалить оснастку" → "Сертификаты" → "Учетная запись компьютера" → "Личные" → "Сертификаты".
+Дерево должно быть: root CA → groupmca → usercert без восклицательных знаков.
+
+Вывод
+
+Проблема: Использование -extfile openssl.cnf в openssl req -new -x509 вызвало ошибку, так как эта опция не поддерживается для самоподписанных сертификатов.
+Исправление: Убрана -extfile для создания rootca.crt, оставлена для подписи groupmca.crt и usercert.crt.
+
+
