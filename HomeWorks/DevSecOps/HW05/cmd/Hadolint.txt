@@ -1,0 +1,2 @@
+sudo wget https://github.com/hadolint/hadolint/releases/download/v2.14.0/hadolint-x86_64-linux-standalone -O /usr/local/bin/hadolint
+sudo chmod +x /usr/local/bin/hadolint

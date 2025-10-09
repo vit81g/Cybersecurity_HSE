@@ -1,0 +1,2 @@
+kubectl apply -f pygoat-deployment.yaml
+kubectl apply -f pygoat-service.yaml
