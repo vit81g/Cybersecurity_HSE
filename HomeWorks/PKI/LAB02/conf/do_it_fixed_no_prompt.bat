@@ -43,8 +43,8 @@ type usercert.crt groupmca.crt rootca.crt > certs.crt
  -passin pass:"%PASS_KEY%" -passout pass:"%PASS_PFX%"
 
 rem ============================================================
-echo [5/5] Импорт сертификата в Windows
-certutil -user -f -p %PASS_PFX% -importpfx final.p12
+echo [5/5] Импорт сертификата в хранилище Windows (автоматически, без подтверждения)
+certutil -user -f -p %PASS_PFX% -importpfx final.p12 MY
 
 echo.
 echo === ГОТОВО! Цепочка сертификатов HSE → MKB241 → Vitaliy Novikov создана и установлена. ===
