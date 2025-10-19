@@ -75,25 +75,25 @@ IDOR/
 > Важно: в репозитории на GitHub изображения будут отображаться автоматически, если сохранить структуру папок как указано выше.
 
 ### LAB01 (IDOR по названию)
-![LAB01 — интерфейс пользователя](./LAB01_IDOR/lab01_LK.jpg)
-![LAB01 — запрос/ответ](./LAB01_IDOR/request.jpg)
-![LAB01 — найденный пароль](./LAB01_IDOR/carlos_pass.jpg)
+![LAB01 — интерфейс пользователя](./LAB01/lab01_LK.jpg)
+![LAB01 — запрос/ответ](./LAB01/request.jpg)
+![LAB01 — найденный пароль](./LAB01/carlos_pass.jpg)
 
 ### LAB02 (UserId через параметр)
-![LAB02 — страница профиля](./LAB02_IDOR/LAB02_LK.jpg)
-![LAB02 — Repeater (оригинал)](./LAB02_IDOR/Repeater_lab02.jpg)
-![LAB02 — Repeater (изменённый)](./LAB02_IDOR/Repeater_new_lab02.jpg)
-![LAB02 — решение](./LAB02_IDOR/Solution_lab02.jpg)
+![LAB02 — страница профиля](./LAB02/LAB02_LK.jpg)
+![LAB02 — Repeater (оригинал)](./LAB02/Repeater_lab02.jpg)
+![LAB02 — Repeater (изменённый)](./LAB02/Repeater_new_lab02.jpg)
+![LAB02 — решение](./LAB02/Solution_lab02.jpg)
 
 ### LAB03 (Path Traversal простой)
-![LAB03 — история](./LAB03_IDOR/LAb03_history.jpg)
-![LAB03 — решение](./LAB03_IDOR/Lab03_solution.jpg)
-![LAB03 — прокси/фильтр](./LAB03_IDOR/proxy_filtr.jpg)
+![LAB03 — история](./LAB03/LAb03_history.jpg)
+![LAB03 — решение](./LAB03/Lab03_solution.jpg)
+![LAB03 — прокси/фильтр](./LAB03/proxy_filtr.jpg)
 
 ### LAB04 (Path Traversal — обход)
-![LAB04 — история](./LAB04_IDOR/history.jpg)
-![LAB04 — ответ сервера](./LAB04_IDOR/response.jpg)
-![LAB04 — найденный passwd](./LAB04_IDOR/solution.jpg)
+![LAB04 — история](./LAB04/history.jpg)
+![LAB04 — ответ сервера](./LAB04/response.jpg)
+![LAB04 — найденный passwd](./LAB04/solution.jpg)
 
 ---
 
