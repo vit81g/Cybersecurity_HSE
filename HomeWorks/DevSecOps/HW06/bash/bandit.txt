@@ -1,0 +1,17 @@
+# Установка Bandit в изолированное окружение
+sudo apt install -y python3-venv
+python3 -m venv ~/bandit_env
+source ~/bandit_env/bin/activate
+
+# Установка Bandit
+pip install bandit
+
+# Проверка версии
+bandit --version
+
+# Запуск анализа PyGoat
+cd /home/admin01/devsecops/hw02/PyGoat
+bandit -r . -ll -f txt -o bandit_report.txt
+
+# Выход из окружения
+deactivate

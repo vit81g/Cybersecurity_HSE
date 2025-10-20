@@ -1,0 +1,4 @@
+sudo docker run -d --name pygoat -p 8000:8000 pygoat:latest
+
+# PyGoat доступен по адресу:
+http://localhost:8000
