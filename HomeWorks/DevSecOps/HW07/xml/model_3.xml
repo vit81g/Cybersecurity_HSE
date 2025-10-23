@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="draw.io" modified="2025-10-22T18:23:00Z" agent="5.0 (Windows)" etag="xyz789">
+  <diagram id="1" name="Page-1">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Start Event -->
+        <mxCell id="2" value="Потребность в разработке/изменении ИС" style="startEvent;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <!-- Roles and Tasks -->
+        <mxCell id="3" value="Менеджер проекта: Сбор требований" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Аналитик безопасности: Оценка рисков" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Разработчик: Разработка модуля 1" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Разработчик: Разработка модуля 2" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="Тестировщик: Тестирование модуля 1" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Тестировщик: Тестирование модуля 2" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Администратор безопасности: Настройка безопасности" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Аудитор: Проведение аудита" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Exclusive Gateway -->
+        <mxCell id="11" value="Утверждение требований" style="gateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Выбор архитектуры" style="gateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="Успешное тестирование" style="gateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="Одобрение аудита" style="gateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="Решение о мониторинге" style="gateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="500" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Parallel Gateway -->
+        <mxCell id="16" value="Параллельная разработка" style="parallelGateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="Параллельное тестирование" style="parallelGateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="Параллельная настройка" style="parallelGateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="Параллельная проверка" style="parallelGateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="Параллельная отчётность" style="parallelGateway;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="500" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Data Objects -->
+        <mxCell id="21" value="Требования к безопасности" style="dataObject;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="22" value="Код программы" style="dataObject;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="140" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="23" value="Отчёты о тестировании" style="dataObject;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="24" value="Логи мониторинга" style="dataObject;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Subprocesses -->
+        <mxCell id="25" value="Оценка рисков" style="subprocess;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="26" value="Разработка документации" style="subprocess;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="200" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="27" value="Проведение аудита" style="subprocess;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="28" value="Настройка мониторинга" style="subprocess;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <!-- End Event -->
+        <mxCell id="29" value="Постоянный мониторинг ИС" style="endEvent;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="620" width="30" height="30" as="geometry"/>
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="30" style="edge;html=1;" edge="1" parent="1" source="2" target="3"/>
+        <mxCell id="31" style="edge;html=1;" edge="1" parent="1" source="3" target="4"/>
+        <mxCell id="32" style="edge;html=1;" edge="1" parent="1" source="4" target="11"/>
+        <mxCell id="33" style="edge;html=1;" edge="1" parent="1" source="11" target="16"/>
+        <mxCell id="34" style="edge;html=1;" edge="1" parent="1" source="16" target="5"/>
+        <mxCell id="35" style="edge;html=1;" edge="1" parent="1" source="16" target="6"/>
+        <mxCell id="36" style="edge;html=1;" edge="1" parent="1" source="5" target="17"/>
+        <mxCell id="37" style="edge;html=1;" edge="1" parent="1" source="6" target="17"/>
+        <mxCell id="38" style="edge;html=1;" edge="1" parent="1" source="17" target="7"/>
+        <mxCell id="39" style="edge;html=1;" edge="1" parent="1" source="17" target="8"/>
+        <mxCell id="40" style="edge;html=1;" edge="1" parent="1" source="7" target="18"/>
+        <mxCell id="41" style="edge;html=1;" edge="1" parent="1" source="8" target="18"/>
+        <mxCell id="42" style="edge;html=1;" edge="1" parent="1" source="18" target="9"/>
+        <mxCell id="43" style="edge;html=1;" edge="1" parent="1" source="9" target="19"/>
+        <mxCell id="44" style="edge;html=1;" edge="1" parent="1" source="19" target="10"/>
+        <mxCell id="45" style="edge;html=1;" edge="1" parent="1" source="10" target="14"/>
+        <mxCell id="46" style="edge;html=1;" edge="1" parent="1" source="14" target="20"/>
+        <mxCell id="47" style="edge;html=1;" edge="1" parent="1" source="20" target="15"/>
+        <mxCell id="48" style="edge;html=1;" edge="1" parent="1" source="15" target="28"/>
+        <mxCell id="49" style="edge;html=1;" edge="1" parent="1" source="28" target="29"/>
+        <!-- Additional steps to reach 25 -->
+        <mxCell id="50" value="Интеграция кода" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="51" value="Проверка кода" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="52" value="Подготовка отчёта" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="53" value="Запуск системы" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="680" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="54" value="Анализ логов" style="text;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="740" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="55" style="edge;html=1;" edge="1" parent="1" source="5" target="50"/>
+        <mxCell id="56" style="edge;html=1;" edge="1" parent="1" source="50" target="51"/>
+        <mxCell id="57" style="edge;html=1;" edge="1" parent="1" source="51" target="52"/>
+        <mxCell id="58" style="edge;html=1;" edge="1" parent="1" source="52" target="53"/>
+        <mxCell id="59" style="edge;html=1;" edge="1" parent="1" source="53" target="54"/>
+        <mxCell id="60" style="edge;html=1;" edge="1" parent="1" source="54" target="15"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

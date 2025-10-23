@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Страница — 1" id="RfQCcIwS066pVsx-Q2AZ">
+    <mxGraphModel dx="1582" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GAowGWW6H0frBps50EV_-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GAowGWW6H0frBps50EV_-2" target="GAowGWW6H0frBps50EV_-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-2" value="Потребность в разработке /&amp;nbsp;&lt;div&gt;изменении ИС&lt;/div&gt;" style="startEvent;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-3" value="Менеджер проекта: Сбор требований" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85" y="220" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-4" value="Аналитик безопасности: Оценка рисков" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="85" y="330" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-5" value="Разработчик: Разработка модуля 1" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="450" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-6" value="Разработчик: Разработка модуля 2" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="110" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-7" value="Тестировщик: Тестирование модуля 1" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="95" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-8" value="Тестировщик: Тестирование модуля 2" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="534" y="130" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-9" value="Администратор безопасности:&lt;div&gt;Настройка безопасности&lt;/div&gt;" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="770" y="95" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-10" value="Аудитор: Проведение аудита" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="110" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-12" value="Утверждение&amp;nbsp;&lt;div&gt;требований&lt;/div&gt;" style="gateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="375" width="230" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-13" value="Выбор архитектуры" style="gateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GAowGWW6H0frBps50EV_-15" target="GAowGWW6H0frBps50EV_-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-15" value="Успешное&lt;div&gt;&amp;nbsp;тестирование&lt;/div&gt;" style="gateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="240" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-17" value="Одобрение аудита" style="gateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="230" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GAowGWW6H0frBps50EV_-19" target="GAowGWW6H0frBps50EV_-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-19" value="Решение о&amp;nbsp;&lt;div&gt;мониторинге&lt;/div&gt;" style="gateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="160" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GAowGWW6H0frBps50EV_-21" target="GAowGWW6H0frBps50EV_-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-21" value="Параллельная&lt;div&gt;&amp;nbsp;разработка&lt;/div&gt;" style="parallelGateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GAowGWW6H0frBps50EV_-23" target="GAowGWW6H0frBps50EV_-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-23" value="Параллельное&amp;nbsp;&lt;div&gt;тестирование&lt;/div&gt;" style="parallelGateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="160" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-24" value="Параллельная&amp;nbsp;&lt;div&gt;настройка&lt;/div&gt;" style="parallelGateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="773.5" y="230" width="146.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GAowGWW6H0frBps50EV_-26" target="GAowGWW6H0frBps50EV_-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-26" value="Параллельная&amp;nbsp;&lt;div&gt;проверка&lt;/div&gt;" style="parallelGateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="773.5" y="160" width="143" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-28" value="Параллельная&amp;nbsp;&lt;div&gt;отчётность&lt;/div&gt;" style="parallelGateway;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1212" y="370" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-29" value="Требования к&amp;nbsp;&lt;div&gt;безопасности&lt;/div&gt;" style="dataObject;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-30" value="Код программы" style="dataObject;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-31" value="Отчёты о&amp;nbsp;&lt;div&gt;тестировании&lt;/div&gt;" style="dataObject;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="310" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-32" value="Логи мониторинга" style="dataObject;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="305" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-33" value="Оценка рисков" style="subprocess;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="260" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-34" value="Разработка документации" style="subprocess;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="300" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GAowGWW6H0frBps50EV_-36" target="GAowGWW6H0frBps50EV_-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-36" value="Проведение аудита" style="subprocess;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="160" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-38" value="Настройка мониторинга" style="subprocess;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="230" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-39" value="Постоянный мониторинг&lt;div&gt;&amp;nbsp;ИС&lt;/div&gt;" style="endEvent;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1213" y="450" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-40" value="Интеграция кода" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="480" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-41" value="Проверка кода" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="510" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-42" value="Подготовка отчёта" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1214" y="520" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-43" value="Запуск системы" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="130" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GAowGWW6H0frBps50EV_-44" value="Анализ логов" style="text;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1214" y="550" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
