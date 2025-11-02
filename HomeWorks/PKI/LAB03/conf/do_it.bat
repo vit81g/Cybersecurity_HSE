@@ -9,7 +9,7 @@ openssl.exe req -x509 -newkey rsa:8192 -passout pass:"SecurePassHSE" -days 3650 
 
 echo === 2. Создание промежуточного сертификата ===
 
-openssl.exe req -newkey rsa:8192 -passout pass:"SecurePassHSE" -subj "/C=RU/ST=Moscow/L=Moscow/O=HSE/CN=Group MCS242" -config openssl.cnf -keyout groupmca.key -out groupmca.csr
+openssl.exe req -newkey rsa:8192 -passout pass:"SecurePassHSE" -subj "/C=RU/ST=Moscow/L=Moscow/O=HSE/CN=Group МКБ241" -config openssl.cnf -keyout groupmca.key -out groupmca.csr
 
 echo === 2.1. Подпись запроса и создание серверного сертификата ===
 
