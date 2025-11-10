@@ -1,0 +1,101 @@
+# OpenSSL configuration file for HSE University PKI
+
+[ ca ]
+default_ca = CA_default
+
+[ CA_default ]
+dir = .
+certs = $dir/certs
+crl_dir = $dir/crl
+database = $dir/index.txt
+new_certs_dir = $dir/newcerts
+certificate = $dir/rootca.crt
+serial = $dir/serial
+crlnumber = $dir/crlnumber
+crl = $dir/crl.pem
+private_key = $dir/private/rootca.key
+RANDFILE = $dir/private/.rand
+
+x509_extensions = v3_ca
+name_opt = ca_default
+cert_opt = ca_default
+
+default_days = 365
+default_crl_days = 30
+default_md = sha256
+preserve = no
+
+policy = policy_match
+
+[ policy_match ]
+countryName = match
+stateOrProvinceName = match
+organizationName = match
+organizationalUnitName = optional
+commonName = supplied
+emailAddress = optional
+
+[ req ]
+default_bits = 8192
+default_keyfile = privkey.pem
+distinguished_name = req_distinguished_name
+attributes = req_attributes
+x509_extensions = v3_ca
+string_mask = utf8only
+prompt = no
+utf8 = yes
+
+[ req_distinguished_name ]
+countryName = RU
+countryName_default = RU
+stateOrProvinceName = Moscow
+stateOrProvinceName_default = Moscow
+localityName = Moscow
+localityName_default = Moscow
+0.organizationName = HSE University
+0.organizationName_default = HSE University
+organizationalUnitName = MIEM
+organizationalUnitName_default = MIEM
+commonName = Common Name
+commonName_max = 64
+emailAddress = Email Address
+emailAddress_max = 64
+
+[ req_attributes ]
+challengePassword = A challenge password
+challengePassword_min = 4
+challengePassword_max = 20
+
+# Корневой УЦ
+[ v3_ca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints = critical, CA:true
+keyUsage = critical, digitalSignature, cRLSign, keyCertSign
+nsCertType = sslCA, emailCA
+subjectAltName = email:copy
+
+# Промежуточный УЦ
+[ v3_mca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints = critical, CA:true, pathlen:0
+keyUsage = critical, digitalSignature, cRLSign, keyCertSign
+nsCertType = sslCA, emailCA
+
+# Пользовательские сертификаты
+[ usr_cert ]
+basicConstraints = CA:FALSE
+nsCertType = client, email
+nsComment = "HSE University MIEM Certificate"
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid,issuer
+keyUsage = critical, digitalSignature, keyEncipherment, nonRepudiation
+extendedKeyUsage = serverAuth, clientAuth, emailProtection
+crlDistributionPoints = URI:http://crl.hse.ru/hse_ca.crl
+1.2.3.4.12 = ASN1:UTF8String:IT Specialist
+
+[ v3_req ]
+basicConstraints = CA:FALSE
+keyUsage = nonRepudiation, digitalSignature, keyEncipherment
+1.2.3.4.12 = ASN1:UTF8String:IT Specialist
