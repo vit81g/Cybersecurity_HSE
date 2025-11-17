@@ -5,7 +5,7 @@
 **Дата выполнения:** 17 ноября 2025  
 
 ## Ссылка на выполненное задание (Google Docs / Яндекс.Документы)  
-**[Отчёт — ДЗ по Теме 9](https://docs.google.com/document/d/ВАША_ССЫЛКА/edit?usp=sharing)**  
+**[Отчёт — ДЗ по Теме 9](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/DevSecOps/HW09/task/%D0%94%D0%97%20%D0%BA%20%D1%82%D0%B5%D0%BC%D0%B5%209.pdf**  
 (доступ открыт «Любой, у кого есть ссылка — просмотр»)
 
 ## Выполненные этапы задания
@@ -34,8 +34,8 @@
 
 ## 2. Диаграмма потоков данных (DFD) уровня 0
 
-![DFD PyGoat — уровень 0](./DFD_PyGoat_Level0.png)  
-(файл `DFD_PyGoat_Level0.png` приложен в репозитории и вставлен в Google Doc)
+![DFD PyGoat — уровень 0](https://github.com/mrCroco-IB/pygoat)  
+
 
 **Границы доверия (Trust Boundaries):**
 
