@@ -5,7 +5,7 @@
 **Дата выполнения:** 17 ноября 2025  
 
 ## Ссылка на выполненное задание (Google Docs / Яндекс.Документы)  
-**[Отчёт — ДЗ по Теме 9](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/DevSecOps/HW09/task/%D0%94%D0%97%20%D0%BA%20%D1%82%D0%B5%D0%BC%D0%B5%209.pdf**  
+**![Отчёт — ДЗ по Теме 9](https://github.com/vit81g/Cybersecurity_HSE/blob/main/HomeWorks/DevSecOps/HW09/task/%D0%94%D0%97%20%D0%BA%20%D1%82%D0%B5%D0%BC%D0%B5%209.pdf)**  
 (доступ открыт «Любой, у кого есть ссылка — просмотр»)
 
 ## Выполненные этапы задания
