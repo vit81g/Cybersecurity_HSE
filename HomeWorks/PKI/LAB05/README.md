@@ -103,6 +103,6 @@ ldapsearch -x -H "ldap://192.168.99.5:389"   -D "demo\Administrator"   -w xxXX12
 ---
 
 # Автор  
-**ФИО:**   
+**ФИО: Novikov V. S.   
 **Группа:** МКБ241  
 **Дата:** 20.11.2025
