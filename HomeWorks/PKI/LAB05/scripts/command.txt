@@ -1,0 +1,2 @@
+ldapsearch -x -H "ldap://192.168.99.5:389" -D "demo\Administrator" -w xxXX1234 -b "DC=demo,DC=lab" "(cn=K*)" DN
+
