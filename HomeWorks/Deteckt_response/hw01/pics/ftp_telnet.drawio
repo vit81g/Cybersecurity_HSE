@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+  <diagram name="Страница-1" id="_ainavUIVIPblf9X98yA">
+    <mxGraphModel dx="1034" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-24" edge="1" parent="1" source="Hr_9Dn5HQRXAJAEg17YR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Hr_9Dn5HQRXAJAEg17YR-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="события трафика (source_ip, dest_ip, dest_port, protocol, action); NGFW&amp;nbsp; подключения к 21 и 23 порту" vertex="1">
+          <mxGeometry height="80" width="180" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-25" edge="1" parent="1" source="Hr_9Dn5HQRXAJAEg17YR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Hr_9Dn5HQRXAJAEg17YR-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;открытые порты в сети;&lt;/div&gt;&lt;div&gt;фиксирует хосты, на которых открыты порты 21 или 23&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="436" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-27" edge="1" parent="1" source="Hr_9Dn5HQRXAJAEg17YR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Hr_9Dn5HQRXAJAEg17YR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-19" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Условие:&amp;nbsp;&lt;div&gt;события от NGFW и от Masscan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="156" x="280" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Hr_9Dn5HQRXAJAEg17YR-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Событие использования&amp;nbsp;&lt;span style=&quot;font-size:12.0pt;mso-bidi-font-size:11.0pt;&lt;br/&gt;line-height:150%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:&lt;br/&gt;Calibri;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot;&gt;протоколов&lt;br/&gt;FTP и Telnet&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="230" x="243" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
