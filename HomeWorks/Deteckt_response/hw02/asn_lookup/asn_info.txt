@@ -1,0 +1,2 @@
+ASN Lookup for example.com
+ASN: AS15133 (Fastly)

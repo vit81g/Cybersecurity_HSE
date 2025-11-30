@@ -1,0 +1,3 @@
+WHOIS example.com
+IP:93.184.216.34
+ASN:AS15133
