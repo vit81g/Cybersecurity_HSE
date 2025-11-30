@@ -1,2 +1,2 @@
-# Censys
+# Censys data
 No additional data.
