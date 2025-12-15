@@ -1,0 +1,5622 @@
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:23 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:23 GMT
+
+========================================
+Content-type: text/html
+Pragma: no-cache
+X-XSS-Protection: 0
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+Content-type: text/html
+Pragma: no-cache
+X-XSS-Protection: 0
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:23 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:23 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:27 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:27 GMT
+
+========================================
+Content-type: text/html
+Pragma: no-cache
+X-XSS-Protection: 0
+
+
+========================================
+Content-type: text/html
+Pragma: no-cache
+X-XSS-Protection: 0
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Profile</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2>Gruyere: Profile</h2>
+</div>
+
+<div class='content'>
+
+
+  <h3>Edit your profile.</h3>
+
+
+
+<form method='get' action='/365409555492888778759821044345253631054/saveprofile'>
+<input type='hidden' name='action' value='update'>
+<table>
+  <tr><td>
+    User id:
+  </td><td>
+
+
+  
+    user
+  
+  
+
+  </td></tr>
+<tr><td>
+    User name:
+  </td><td>
+    <input type='text'
+      value='user'
+      name='name' maxlength='16'>
+</td></tr>
+<tr><td>
+    OLD Password:
+  </td><td>
+    <input type='password' name='oldpw'>
+  </td><td>
+</td></tr>
+<tr><td>
+    NEW Password:
+  </td><td>
+    <input type='password' name='pw'>
+    <br><span style="color:red"><b>WARNING: Gruyere is not secure.<br>
+    Do not use a password that you use for any real service.</b></span>
+</td></tr>
+<tr><td>
+    Icon:
+  </td><td>
+    <input type='text'
+      value=''
+      value=''
+      name='icon'>
+    (32x32 image, URL to image location)
+</td></tr>
+<tr><td>
+    Homepage:
+  </td><td>
+    <input type='text' size='50'
+      value='sss'
+      name='web_site'>
+</td></tr>
+<tr><td>
+    Profile Color:
+  </td><td>
+    <input type='text'
+      value=''
+      name='color'>
+</td></tr>
+<tr><td>
+    Private Snippet:
+  </td><td>
+    <textarea name='private_snippet' rows='10' style='width:100%'><script>alert(1)</script></textarea>
+</td></tr>
+
+
+<tr><td></td><td align='left'>
+    <input type='submit' value='Update'>
+</td></tr>
+</table>
+</form>
+</div>
+
+</body>
+
+</html>
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Profile</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2>Gruyere: Profile</h2>
+</div>
+
+<div class='content'>
+
+
+  <h3>Edit your profile.</h3>
+
+
+
+<form method='get' action='/365409555492888778759821044345253631054/saveprofile'>
+<input type='hidden' name='action' value='update'>
+<table>
+  <tr><td>
+    User id:
+  </td><td>
+
+
+  
+    user
+  
+  
+
+  </td></tr>
+<tr><td>
+    User name:
+  </td><td>
+    <input type='text'
+      value='user'
+      name='name' maxlength='16'>
+</td></tr>
+<tr><td>
+    OLD Password:
+  </td><td>
+    <input type='password' name='oldpw'>
+  </td><td>
+</td></tr>
+<tr><td>
+    NEW Password:
+  </td><td>
+    <input type='password' name='pw'>
+    <br><span style="color:red"><b>WARNING: Gruyere is not secure.<br>
+    Do not use a password that you use for any real service.</b></span>
+</td></tr>
+<tr><td>
+    Icon:
+  </td><td>
+    <input type='text'
+      value=''
+      value=''
+      name='icon'>
+    (32x32 image, URL to image location)
+</td></tr>
+<tr><td>
+    Homepage:
+  </td><td>
+    <input type='text' size='50'
+      value='sss'
+      name='web_site'>
+</td></tr>
+<tr><td>
+    Profile Color:
+  </td><td>
+    <input type='text'
+      value=''
+      name='color'>
+</td></tr>
+<tr><td>
+    Private Snippet:
+  </td><td>
+    <textarea name='private_snippet' rows='10' style='width:100%'><script>alert(1)</script></textarea>
+</td></tr>
+
+
+<tr><td></td><td align='left'>
+    <input type='submit' value='Update'>
+</td></tr>
+</table>
+</form>
+</div>
+
+</body>
+
+</html>
+
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:32 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:32 GMT
+
+========================================
+Location: /365409555492888778759821044345253631054/
+
+========================================
+Location: /365409555492888778759821044345253631054/
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML//EN'>
+        <html><body>
+        <title>302 Redirect</title>
+        Redirected <a href="/365409555492888778759821044345253631054/">here</a>
+        </body></html>
+========================================
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML//EN'>
+        <html><body>
+        <title>302 Redirect</title>
+        Redirected <a href="/365409555492888778759821044345253631054/">here</a>
+        </body></html>
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:32 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:32 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Home</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh'>Gruyere: Home</h2>
+<div class='refresh'><a class='button' onclick='_refreshHome("365409555492888778759821044345253631054")' href='#'>Refresh</a></div>
+</div>
+<div class='content'>
+<table width='100%'>
+
+  <tr>
+    <td></td>
+    <td>
+      Private&nbsp;snippet&nbsp;
+    </td>
+    <td>
+      <a class='button' id='show' onclick='_showHide("show", "hide")' href='#'>Show &#9658;</a>
+      <span id='hide' style='display: none;'>
+      <a class='button' onclick='_showHide("show", "hide")' href='#'>Hide &#9668;</a> &nbsp;
+      <span id='private_snippet'><blocked>alert(1)</script></span></span>
+    </td>
+  </tr>
+  <tr><td colspan='3'><hr></td></tr>
+
+  <tr><td colspan='3'><b>Most recent snippets:</b></td></tr>
+
+
+
+
+
+
+  <tr>
+    <td>
+     
+    </td>
+    <td>
+      <b><span style='color:blue'>Cheddar Mac</span></b>
+    </td>
+    <td width='100%'><span id='cheddar'>Gruyere is the cheesiest application on the web.</span>
+    <br>
+          <a href='/365409555492888778759821044345253631054/snippets.gtl?uid=cheddar'>All snippets</a>&nbsp;
+      <a href='https://images.google.com/?q=cheddar+cheese'>Homepage</a>
+    <br>
+    <br>
+    </td>
+  </tr>
+
+
+
+
+
+  <tr>
+    <td>
+     
+    </td>
+    <td>
+      <b><span style='color:'>user</span></b>
+    </td>
+    <td width='100%'><span id='user'><blocked>alert(1)</script></span>
+    <br>
+          <a href='/365409555492888778759821044345253631054/snippets.gtl?uid=user'>All snippets</a>&nbsp;
+      <a href='sss'>Homepage</a>
+    <br>
+    <br>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+     
+    </td>
+    <td>
+      <b><span style='color:red; text-decoration:underline'>Brie</span></b>
+    </td>
+    <td width='100%'><span id='brie'>Brie is the queen of the cheeses<span style=color:red>!!!</span></span>
+    <br>
+          <a href='/365409555492888778759821044345253631054/snippets.gtl?uid=brie'>All snippets</a>&nbsp;
+      <a href='https://news.google.com/news/search?q=brie'>Homepage</a>
+    <br>
+    <br>
+    </td>
+  </tr>
+
+
+</table>
+</div>
+</body>
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Home</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh'>Gruyere: Home</h2>
+<div class='refresh'><a class='button' onclick='_refreshHome("365409555492888778759821044345253631054")' href='#'>Refresh</a></div>
+</div>
+<div class='content'>
+<table width='100%'>
+
+  <tr>
+    <td></td>
+    <td>
+      Private&nbsp;snippet&nbsp;
+    </td>
+    <td>
+      <a class='button' id='show' onclick='_showHide("show", "hide")' href='#'>Show &#9658;</a>
+      <span id='hide' style='display: none;'>
+      <a class='button' onclick='_showHide("show", "hide")' href='#'>Hide &#9668;</a> &nbsp;
+      <span id='private_snippet'><blocked>alert(1)</script></span></span>
+    </td>
+  </tr>
+  <tr><td colspan='3'><hr></td></tr>
+
+  <tr><td colspan='3'><b>Most recent snippets:</b></td></tr>
+
+
+
+
+
+
+  <tr>
+    <td>
+     
+    </td>
+    <td>
+      <b><span style='color:blue'>Cheddar Mac</span></b>
+    </td>
+    <td width='100%'><span id='cheddar'>Gruyere is the cheesiest application on the web.</span>
+    <br>
+          <a href='/365409555492888778759821044345253631054/snippets.gtl?uid=cheddar'>All snippets</a>&nbsp;
+      <a href='https://images.google.com/?q=cheddar+cheese'>Homepage</a>
+    <br>
+    <br>
+    </td>
+  </tr>
+
+
+
+
+
+  <tr>
+    <td>
+     
+    </td>
+    <td>
+      <b><span style='color:'>user</span></b>
+    </td>
+    <td width='100%'><span id='user'><blocked>alert(1)</script></span>
+    <br>
+          <a href='/365409555492888778759821044345253631054/snippets.gtl?uid=user'>All snippets</a>&nbsp;
+      <a href='sss'>Homepage</a>
+    <br>
+    <br>
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>
+     
+    </td>
+    <td>
+      <b><span style='color:red; text-decoration:underline'>Brie</span></b>
+    </td>
+    <td width='100%'><span id='brie'>Brie is the queen of the cheeses<span style=color:red>!!!</span></span>
+    <br>
+          <a href='/365409555492888778759821044345253631054/snippets.gtl?uid=brie'>All snippets</a>&nbsp;
+      <a href='https://news.google.com/news/search?q=brie'>Homepage</a>
+    <br>
+    <br>
+    </td>
+  </tr>
+
+
+</table>
+</div>
+</body>
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:34 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:34 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:34 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:34 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:58 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:58 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:58 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:49:58 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:03 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:03 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Profile</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2>Gruyere: Profile</h2>
+</div>
+
+<div class='content'>
+
+
+  <h3>Edit your profile.</h3>
+
+
+
+<form method='get' action='/365409555492888778759821044345253631054/saveprofile'>
+<input type='hidden' name='action' value='update'>
+<table>
+  <tr><td>
+    User id:
+  </td><td>
+
+
+  
+    user
+  
+  
+
+  </td></tr>
+<tr><td>
+    User name:
+  </td><td>
+    <input type='text'
+      value='user'
+      name='name' maxlength='16'>
+</td></tr>
+<tr><td>
+    OLD Password:
+  </td><td>
+    <input type='password' name='oldpw'>
+  </td><td>
+</td></tr>
+<tr><td>
+    NEW Password:
+  </td><td>
+    <input type='password' name='pw'>
+    <br><span style="color:red"><b>WARNING: Gruyere is not secure.<br>
+    Do not use a password that you use for any real service.</b></span>
+</td></tr>
+<tr><td>
+    Icon:
+  </td><td>
+    <input type='text'
+      value=''
+      value=''
+      name='icon'>
+    (32x32 image, URL to image location)
+</td></tr>
+<tr><td>
+    Homepage:
+  </td><td>
+    <input type='text' size='50'
+      value='sss'
+      name='web_site'>
+</td></tr>
+<tr><td>
+    Profile Color:
+  </td><td>
+    <input type='text'
+      value=''
+      name='color'>
+</td></tr>
+<tr><td>
+    Private Snippet:
+  </td><td>
+    <textarea name='private_snippet' rows='10' style='width:100%'><script>alert(1)</script></textarea>
+</td></tr>
+
+
+<tr><td></td><td align='left'>
+    <input type='submit' value='Update'>
+</td></tr>
+</table>
+</form>
+</div>
+
+</body>
+
+</html>
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Profile</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2>Gruyere: Profile</h2>
+</div>
+
+<div class='content'>
+
+
+  <h3>Edit your profile.</h3>
+
+
+
+<form method='get' action='/365409555492888778759821044345253631054/saveprofile'>
+<input type='hidden' name='action' value='update'>
+<table>
+  <tr><td>
+    User id:
+  </td><td>
+
+
+  
+    user
+  
+  
+
+  </td></tr>
+<tr><td>
+    User name:
+  </td><td>
+    <input type='text'
+      value='user'
+      name='name' maxlength='16'>
+</td></tr>
+<tr><td>
+    OLD Password:
+  </td><td>
+    <input type='password' name='oldpw'>
+  </td><td>
+</td></tr>
+<tr><td>
+    NEW Password:
+  </td><td>
+    <input type='password' name='pw'>
+    <br><span style="color:red"><b>WARNING: Gruyere is not secure.<br>
+    Do not use a password that you use for any real service.</b></span>
+</td></tr>
+<tr><td>
+    Icon:
+  </td><td>
+    <input type='text'
+      value=''
+      value=''
+      name='icon'>
+    (32x32 image, URL to image location)
+</td></tr>
+<tr><td>
+    Homepage:
+  </td><td>
+    <input type='text' size='50'
+      value='sss'
+      name='web_site'>
+</td></tr>
+<tr><td>
+    Profile Color:
+  </td><td>
+    <input type='text'
+      value=''
+      name='color'>
+</td></tr>
+<tr><td>
+    Private Snippet:
+  </td><td>
+    <textarea name='private_snippet' rows='10' style='width:100%'><script>alert(1)</script></textarea>
+</td></tr>
+
+
+<tr><td></td><td align='left'>
+    <input type='submit' value='Update'>
+</td></tr>
+</table>
+</form>
+</div>
+
+</body>
+
+</html>
+
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:08 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:08 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /editprofile.gtl<script>alert(1)</script></div>
+
+
+</body>
+
+</html>
+
+========================================
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /editprofile.gtl<script>alert(1)</script></div>
+
+
+</body>
+
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:08 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:08 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /editprofile.gtl<script>alert(1)</cheese.png</div>
+
+
+</body>
+
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /editprofile.gtl<script>alert(1)</cheese.png</div>
+
+
+</body>
+
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:11 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:11 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Snippets</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+<script src="/365409555492888778759821044345253631054/lib.js" text="text/javascript">
+</script>
+</head>
+
+<body>
+
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+<div>
+<h2 class='has-refresh' id="user_name">
+
+
+  My Snippets
+  
+
+</h2>
+<div class='refresh'><a class='button'
+  onclick='_refreshSnippets("365409555492888778759821044345253631054", "user")'
+  href='#'>Refresh</a></div>
+<div class='content'>
+
+
+
+
+  
+  
+    
+    
+      <br>
+      <table>
+        <tr><td colspan='2'><b>All snippets:</b></td></tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(0 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=0'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='0'>
+                <blocked>alert(1)</script>
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(1 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=1'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='1'>
+                <img src="nonexistent.jpg" onerror="alert('XSS')">
+
+              </div>
+            </td>
+          </tr>
+        
+          <tr>
+            <td valign='top'>
+              <script>document.write(2 + 1)</script>&nbsp;&nbsp;
+            </td>
+            <td valign='top'>
+              <a href='/365409555492888778759821044345253631054/deletesnippet?index=2'>[X]</a>&nbsp;
+            </td>
+            <td valign='top'>
+              <div id='2'>
+                <blocked>alert('XSS')</script>
+
+              </div>
+            </td>
+          </tr>
+        
+      </table>
+    
+  
+  <br>
+  <a href='sss'>My site</a>
+
+</div>
+</body>
+</html>
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Server: BaseHTTP/0.3 Python/2.7.18
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:12 GMT
+
+========================================
+Date: Mon, 03 Feb 2025 05:50:12 GMT
+
+========================================
+Content-type: text/html
+
+========================================
+Content-type: text/html
+
+========================================
+Pragma: no-cache
+
+========================================
+Pragma: no-cache
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+X-XSS-Protection: 0
+
+========================================
+
+
+========================================
+
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<title>Gruyere: Error</title>
+<style>
+/* Copyright 2017 Google Inc. */
+
+body, html, td, span, div, input, textarea {
+  font-family: sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  background: url('cheese.png') top center repeat;
+  text-align: center;
+  opacity: 0.80;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: top;
+  padding: 5px;
+}
+
+a, a:hover {
+  text-decoration: underline;
+  color: #0000bb;
+}
+
+a:visited {
+  color: #bb0000;
+}
+
+a.button:visited {
+  color: #0000bb;
+}
+
+.content {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background: #ffffcc;
+  padding: 20px;
+  border: 3px solid #ffb149;
+}
+
+.menu {
+  text-align: left;
+  padding: 10px 20px 35px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  background: #ffffcc;
+  border: 3px solid #ffb149;
+}
+
+.menu-user {
+  color: #000000;
+  font-weight: bold;
+}
+
+#menu-left {
+  float: left;
+}
+
+#menu-left a, #menu-left a:hover, #menu-left a:visited {
+  color: #000000;
+}
+
+#menu-right {
+  float: right;
+}
+
+#menu-right a, #menu-right a:hover, #menu-right a:visited {
+  color: #000000;
+}
+
+.message {
+  width: 50%;
+  color: #ff0000;
+  background: #ffdddd;
+  border: 2px solid #ff0000;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  background-color: #ffffff;
+}
+
+.refresh {
+  float: center;
+  width: 90%;
+  text-align: right;
+  margin: auto;
+  padding-top: 0;
+  padding-bottom: 2pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.h2-with-refresh {
+  margin-bottom: 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class='menu'>
+  <span id='menu-left'>
+    <a href='/365409555492888778759821044345253631054/'>Home</a>
+      
+      | <a href='/365409555492888778759821044345253631054/snippets.gtl'>My&nbsp;Snippets</a>
+      | <a href='/365409555492888778759821044345253631054/newsnippet.gtl'>New&nbsp;Snippet</a>
+      | <a href='/365409555492888778759821044345253631054/upload.gtl'>Upload</a>
+      
+  </span>
+  <span id='menu-right'>
+      
+      <span class='menu-user'>
+        user &lt;user&gt;
+      </span>
+      
+      | <a href='/365409555492888778759821044345253631054/editprofile.gtl'>Profile</a>
+      | <a href='/365409555492888778759821044345253631054/logout'>Sign out</a>
+      
+      
+  </span>
+</div>
+
+
+
+<div class='message'>Invalid request: /nonexistent.jpg</div>
+
+
+</body>
+
+</html>
+
+========================================
